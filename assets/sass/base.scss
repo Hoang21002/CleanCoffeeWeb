@@ -1,0 +1,34 @@
+*{
+    padding: 0; margin: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    transition: all .2s linear;
+    
+}
+
+html{
+    font-size: 62.5%;
+}
+
+$main-color : #DCD7C9;
+$second-color : #A27B5C; 
+$thir-color : #3F4E4F;
+$four-color : #2C3639;
+
+$balck-color :#191919;
+$balck-color-text: #000000;
+$white-color: #FFFFFF;
+
+@mixin input ($width,$height){
+    width: $width;
+    height: $height;
+    border-radius: 16px;
+}
+
+@mixin button ($width,$height){
+    width: $width;
+    height: $height;
+    border-radius: 20px;
+}

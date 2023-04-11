@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  transition: all 0.2s linear;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+@media (min-width: 1024px) {
+  .header .menu-bnt {
+    display: none;
+  }
+  .header .nav-item {
+    color: #000000;
+  }
+}
+@media (min-width: 740px) and (max-width: 1023px) {
+  html {
+    font-size: 55.5%;
+  }
+  .header .nav-list {
+    position: absolute;
+    left: 0;
+    top: 99%;
+    display: block;
+    text-align: left;
+    line-height: 3.4;
+    right: 0;
+    background-color: #3F4E4F;
+    clip-path: polygon(0 0, 0 0, 100% 0);
+    padding: 2rem;
+  }
+  .header .nav-list.active {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+  .header .nav-list .nav-item {
+    display: block;
+    color: #FFFFFF;
+  }
+}
+@media (max-width: 739px) {
+  html {
+    font-size: 50%;
+  }
+  .header .nav {
+    padding: 1rem 0.8rem;
+  }
+  .header .nav-logo img {
+    width: 4rem;
+  }
+  .header .nav-logo p {
+    font-size: 2rem;
+  }
+  .header .nav-list {
+    position: absolute;
+    left: 0;
+    top: 99%;
+    display: block;
+    text-align: left;
+    line-height: 3.4;
+    right: 0;
+    background-color: #3F4E4F;
+    clip-path: polygon(0 0, 0 0, 100% 0);
+    padding: 2rem;
+  }
+  .header .nav-list.active {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+  .header .nav-list .nav-item {
+    display: block;
+    color: #FFFFFF;
+  }
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+header .nav,
+header .nav-login,
+header .nav-logo,
+header .nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .nav {
+  background-color: #DCD7C9;
+  padding: 1rem 2.8rem;
+}
+header .nav .menu-bnt {
+  font-size: 5.2rem;
+}
+header .nav .nav-logo {
+  gap: 0 0.9rem;
+}
+header .nav .nav-logo p {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #000000;
+}
+header .nav .nav-list {
+  gap: 0 6rem;
+}
+header .nav .nav-list .nav-item {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+header .nav .nav-login {
+  gap: 0 2.2rem;
+}
+header .nav .nav-login button {
+  width: auto;
+  height: auto;
+  border-radius: 20px;
+  padding: 1rem;
+}
+header .nav .nav-login img {
+  width: 2.4rem;
+}
+
+/*# sourceMappingURL=app.css.map */

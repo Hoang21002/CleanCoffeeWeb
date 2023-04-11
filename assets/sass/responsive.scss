@@ -1,0 +1,95 @@
+
+// -------------------------PC--------------------------
+@media (min-width : 1024px){
+    .header{
+        .menu-bnt{
+            display: none;
+        }
+        .nav-item{
+            color: $balck-color-text;
+        }
+    }
+}
+// -------------------------PC--------------------------
+
+
+
+
+// -------------------------IPAD--------------------------
+@media (min-width : 740px) and (max-width : 1023px){
+    html{
+        font-size: 55.5%;
+    }
+    .header{
+
+        .nav-list{
+            position: absolute;
+            left: 0;
+            top: 99%;
+            display: block;
+            text-align: left;
+            line-height: 3.4;
+            right: 0;
+            background-color: $thir-color;
+            clip-path: polygon(0 0, 0 0, 100% 0);
+            padding: 2rem;
+                
+            &.active{
+                clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+            }
+
+            .nav-item{
+                display: block;
+                color: $white-color;
+            }
+
+        }
+    }
+}
+// -------------------------IPAD--------------------------
+
+
+
+
+// -------------------------MOBILE--------------------------
+@media (max-width : 739px){
+    html{
+        font-size: 50%;
+    }
+    .header{
+        .nav{
+            padding: 1rem 0.8rem;
+        }
+        .nav-logo{
+            img{
+                width: 4rem;
+            }
+            p{
+                font-size: 2rem;
+            }
+        }
+        .nav-list{
+            position: absolute;
+            left: 0;
+            top: 99%;
+            display: block;
+            text-align: left;
+            line-height: 3.4;
+            right: 0;
+            background-color: $thir-color;
+            clip-path: polygon(0 0, 0 0, 100% 0);
+            padding: 2rem;
+                
+            &.active{
+                clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+            }
+
+            .nav-item{
+                display: block;
+                color: $white-color;
+            }
+
+        }
+    }
+}
+// -------------------------MOBILE--------------------------
