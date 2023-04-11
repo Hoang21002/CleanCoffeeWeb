@@ -3,109 +3,194 @@
 
 
 // ----------------------------header-----------------------
-header{
+header {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 1000;
+
     .nav,
     .nav-login,
     .nav-logo,
-    .nav-list{
+    .nav-list {
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
-    
-    .nav{
+
+    .nav {
         background-color: $main-color;
         padding: 1rem 2.8rem;
         height: 68px;
-        .menu-bnt{
+
+        .menu-bnt {
             font-size: 5.2rem;
             color: $balck-color;
             // display: none;
         }
-        .nav-logo{
-            
+
+        .nav-logo {
+
             gap: 0 0.9rem;
-            p{
+
+            p {
                 font-size: 2.4rem;
                 font-weight: 600;
                 color: $balck-color-text;
             }
         }
+
         .nav-list {
             gap: 0 6rem;
-            .nav-item{
+
+            .nav-item {
                 font-size: 1.6rem;
                 font-weight: 400;
             }
         }
-        .nav-login{
+
+        .nav-login {
             gap: 0 2.2rem;
-            button{
-                @include button(auto,auto);
+
+            button {
+                @include button(auto, auto);
                 padding: 1rem;
             }
-            img{
+
+            img {
                 width: 2.4rem;
             }
         }
     }
 }
+
 // ----------------------------header-----------------------
 
 
 
 // ----------------------------slider-----------------------
-.slider{
-    
+.slider {
+
     margin-top: 68px;
-    background-color: aqua;
-    left: 0;
-    right: 0;
-    display: flex;
-    justify-content: center;
 
-    .slider-from{
-        
-        width: 90vw;
-        margin: 7.7rem;
+    .slider-from {
+        // padding: 7.7rem 11.2rem;
         display: flex;
-        
+        align-items: center;
+        justify-content: space-between;
 
-        .slider-content{
-            width: 60%;
-            line-height: 2.5;
-            p,
-            span{
+        .slider-content {
+
+            // width: 55.4rem;
+            span {
                 font-size: 2rem;
                 font-weight: 400;
             }
-            h1{
+
+            h1 {
                 font-size: 4.8rem;
                 font-weight: 700;
             }
-            h4{
+
+            p {
+                font-size: 2rem;
+                font-weight: 400;
+            }
+
+            h4 {
                 font-size: 2rem;
                 font-weight: 700;
                 font-style: italic;
             }
-            h3{
+
+            h3 {
                 font-size: 2.4rem;
                 font-weight: 700;
+            }
+        }
+
+        .slider-img {
+            margin: auto 0;
+            width: 84.8rem;
+            text-align: center;
+
+            img {
+                width: 100%;
+                // height: 100%;
+                display: block;
+            }
+        }
+
+    }
+
+}
+
+// ----------------------------slider-----------------------
+
+
+
+
+// ----------------------------container-----------------------
+.container {
+    margin-bottom: 500px;
+    margin-top: 4.3rem;
+    .container-content {
+        width: 80vw;
+        margin-left: auto;
+        margin-right: auto;
+        .text-heading-container{
+            text-align: center;
+            margin-bottom: 4rem;
+            font-size: 4rem;
+            font-weight: 700;
+
+        }
+        .container-content-left {
+            padding: 10rem 0;
+            background-color: #ccc;
+            display: flex;
+            width: 50%;     
+            flex-direction: column;
+            align-items: center;
+            .content-left-list {
+                margin-top: 4rem;
+                width: 50%;
+                .content-list-top {
+                    display: flex;
+                    gap: 0 4rem;
+                    margin-bottom: .8rem;
+                    align-items: center;
+                    .number {
+                        text-align: center;
+                        background: $balck-color;
+                        width: 6.8rem;
+                        color: white;
+                        border-radius: 2.8rem;
+                        font-size: 2.4rem;
+                        font-weight: 700;
+                        p{
+                            padding: 1rem 0;
+                            font-size: 2.4rem;
+                            font-weight: 700;
+                        }
+                    }
+                    h3{
+                        font-size: 1.6rem;
+                        font-weight: 400;
+                    }                    
+                }
+                p{
+                    font-size: 1.4rem;
+                    font-weight: 500;
+                    font-style: italic;
+                }
 
             }
         }
-        
-        .slider-img{
-            width: 40%;
-            
 
-        }
+        .container-content-right {}
     }
 }
-// ----------------------------slider-----------------------
 
+// ----------------------------container-----------------------

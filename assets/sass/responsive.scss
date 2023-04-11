@@ -1,75 +1,110 @@
-
 // -------------------------PC--------------------------
-@media (min-width : 1024px){
-    .header{
-        .menu-bnt{
+@media (min-width : 1024px) {
+    .header {
+        .menu-bnt {
             display: none;
         }
-        .nav-item{
+
+        .nav-item {
             color: $balck-color-text;
         }
     }
+    .slider-from {
+        padding: 7.7rem 11.2rem;
+        .slider-content{
+            // width: 55.4rem;
+        }
+        .slider-img{
+            width: 84.8rem;
+        }
+    }
+
 }
+
 // -------------------------PC--------------------------
 
 
 
 
 // -------------------------IPAD--------------------------
-@media (min-width : 740px) and (max-width : 1023px){
-    html{
+@media (min-width : 740px) and (max-width : 1023px) {
+    html {
         font-size: 55.5%;
     }
-    .header{
-        
-        .nav-list{
+
+    .header {
+
+        .nav-list {
             position: absolute;
             left: 0;
             top: 99%;
             display: block;
-            
+
             text-align: left;
             line-height: 3.4;
             right: 0;
             background-color: $thir-color;
             clip-path: polygon(0 0, 0 0, 100% 0);
             padding: 2rem;
-                
-            &.active{
+
+            &.active {
                 clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
             }
 
-            .nav-item{
+            .nav-item {
                 display: block;
                 color: $white-color;
             }
 
         }
     }
+
+    .slider {
+        
+        .slider-from {
+            padding: 7.7rem 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .slider-content,
+            .slider-img{
+                width: 100%;
+            }
+            .slider-content{
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
 }
+
 // -------------------------IPAD--------------------------
 
 
 
 
 // -------------------------MOBILE--------------------------
-@media (max-width : 739px){
-    html{
+@media (max-width : 739px) {
+    html {
         font-size: 50%;
     }
-    .header{
-        .nav{
+
+    .header {
+        .nav {
             padding: 1rem 0.8rem;
         }
-        .nav-logo{
-            img{
+
+        .nav-logo {
+            img {
                 width: 4rem;
             }
-            p{
+
+            p {
                 font-size: 2rem;
             }
         }
-        .nav-list{
+
+        .nav-list {
             position: absolute;
             left: 0;
             top: 99%;
@@ -80,17 +115,37 @@
             background-color: $thir-color;
             clip-path: polygon(0 0, 0 0, 100% 0);
             padding: 2rem;
-                
-            &.active{
+
+            &.active {
                 clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
             }
 
-            .nav-item{
+            .nav-item {
                 display: block;
                 color: $white-color;
             }
 
         }
     }
+
+    .slider {
+        
+        .slider-from {
+            padding: 7.7rem 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .slider-content,
+            .slider-img{
+                width: 100%;
+            }
+            .slider-content{
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+        }
+    }
 }
+
 // -------------------------MOBILE--------------------------
