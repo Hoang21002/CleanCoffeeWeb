@@ -337,7 +337,8 @@ footer {
             font-weight: 700;
             margin-top: 4.8rem;
         }
-        .heading-content-2-khampha{
+
+        .heading-content-2-khampha {
             font-size: 2.4rem;
             font-weight: 700;
             margin-top: 8rem;
@@ -353,6 +354,7 @@ footer {
             display: flex;
             align-items: center;
             width: 120%;
+
             .interview-content-khampha-img {
                 width: 100%;
 
@@ -370,29 +372,35 @@ footer {
                 padding: 4rem;
                 width: 100%;
                 margin-left: -20rem;
-                .heading-interview-from-khampha{
+
+                .heading-interview-from-khampha {
                     font-size: 2.4rem;
                     font-weight: 700;
                     line-height: 1.2;
                 }
-                .title-interview-from-khampha{
+
+                .title-interview-from-khampha {
                     margin-top: 2.8rem;
                     font-size: 1.4rem;
                     font-weight: 500;
                 }
-            }          
+            }
         }
-        .content-3-khampha{
+
+        .content-3-khampha {
             display: flex;
             width: 120%;
             align-items: center;
             gap: 0 10rem;
-            .heading-content-3-khampha{
+
+            .heading-content-3-khampha {
                 width: 50%;
             }
-            .img-content-3-khampha{
+
+            .img-content-3-khampha {
                 width: 50%;
-                img{
+
+                img {
                     width: 100%;
                 }
             }
@@ -403,3 +411,45 @@ footer {
 // ----------------------------container-----------------------
 
 // ----------------------------KHAM PHA----------------------------------
+
+
+
+// ----------------------------XEP HANG----------------------------------
+.slider-xephang {
+    margin-top: $hight-nav;
+    position: relative;
+    padding-top: 50%;
+    background: #ccc;
+    display: flex;
+    align-items: center;
+
+    .slider-xephang-text {
+        margin-left: 11.2rem;
+        position: absolute;
+        top: 50%;
+        transform:translatey(-50%);
+        
+        .slider-xephang-text-1{
+            font-size: 2rem;
+            font-weight: 400;
+            margin-bottom: 2rem;
+        }
+        .slider-xephang-text-2{
+            font-size: 4.8rem;
+            font-weight: 700;
+            margin-bottom: 2rem;
+
+        }
+        .slider-xephang-text-3{
+            font-size: 1.6rem;
+            font-weight: 400S;
+            margin-bottom: 2rem;
+
+        }
+        .slider-xephang-bnt{
+            @include button(14.8rem,4rem);
+        }
+    }
+}
+
+// ----------------------------XEP HANG----------------------------------

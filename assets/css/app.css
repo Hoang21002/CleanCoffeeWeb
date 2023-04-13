@@ -421,4 +421,40 @@ footer .footer-bot .footer-icon-contact .icon-footer {
   width: 100%;
 }
 
+.slider-xephang {
+  margin-top: 6.8rem;
+  position: relative;
+  padding-top: 50%;
+  background: #ccc;
+  display: flex;
+  align-items: center;
+}
+.slider-xephang .slider-xephang-text {
+  margin-left: 11.2rem;
+  position: absolute;
+  top: 50%;
+  transform: translatey(-50%);
+}
+.slider-xephang .slider-xephang-text .slider-xephang-text-1 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+.slider-xephang .slider-xephang-text .slider-xephang-text-2 {
+  font-size: 4.8rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+.slider-xephang .slider-xephang-text .slider-xephang-text-3 {
+  font-size: 1.6rem;
+  font-weight: 400S;
+  margin-bottom: 2rem;
+}
+.slider-xephang .slider-xephang-text .slider-xephang-bnt {
+  width: 14.8rem;
+  height: 4rem;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
 /*# sourceMappingURL=app.css.map */
