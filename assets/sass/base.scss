@@ -4,7 +4,7 @@
     outline: none; border: none;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
-    // transition: all .2s linear;
+    transition: all .2s linear;
     list-style: none
     
 }
@@ -33,4 +33,14 @@ $white-color: #FFFFFF;
     height: $height;
     border-radius: 20px;
     cursor: pointer;
+}
+
+@mixin logo (){
+    gap: 0 0.9rem;
+
+    p {
+        font-size: 2.4rem;
+        font-weight: 600;
+        color: $balck-color-text;
+    }
 }

@@ -82,6 +82,7 @@ header {
 
         .slider-content {
             line-height: 2;
+
             // width: 55.4rem;
             span {
                 font-size: 2rem;
@@ -107,6 +108,12 @@ header {
             h3 {
                 font-size: 2.4rem;
                 font-weight: 700;
+            }
+            .slider-content-img{
+                text-align: center;
+                img{
+                    width: 28rem;
+                }
             }
         }
 
@@ -142,13 +149,14 @@ header {
         font-weight: 700;
 
     }
+
     .container-content {
         width: 80vw;
         margin-left: auto;
         margin-right: auto;
         display: flex;
 
-        
+
 
         .container-content-left {
             padding: 10rem 0;
@@ -214,36 +222,64 @@ header {
 
 // ----------------------------container-----------------------
 
-footer{
+footer {
     display: flex;
     flex-direction: column;
-    .footer-content{
+    margin-top: 12rem;
+    border-top: 2px solid $main-color;
+    bottom: 0;
+    position:relative;
+    
+    .footer-content {
+        padding-top: 8rem;
         display: flex;
-        margin:0 11.2rem;
+        margin: 0 11.2rem;
         justify-content: space-between;
-        .footer-item{
+        
+
+        .footer-item {
             width: 20%;
-            .text-footer-title{
+            
+            .text-footer-heading {
+                margin-bottom: 2.8rem;
+            }
+
+            .text-footer-title {
                 font-size: 1.6rem;
                 font-weight: 400;
                 margin-bottom: 2rem;
+                .text-link{
+                    color: $balck-color-text;
+                }
             }
         }
+
+        .footer-website{
+            width: 12%;
+        }
     }
-    .footer-bot{
+
+    .footer-bot {
         display: flex;
         flex-direction: column;
         align-items: center;
-        .footer-logo{
+        margin-top: 3.2rem;
+        margin-bottom: 2.75rem;
+
+        .footer-logo {
+            @include logo;
             display: flex;
-            align-items: center;       
+            align-items: center;
+            margin-bottom: 1.6rem;
+
         }
-        .footer-icon-contact{
-            .icon-footer{
+
+        .footer-icon-contact {
+            .icon-footer {
                 margin-left: .4rem;
                 margin-right: .4rem;
             }
         }
-        
+
     }
 }
