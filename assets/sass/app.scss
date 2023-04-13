@@ -2,6 +2,9 @@
 @import 'responsive';
 
 
+
+
+
 // ----------------------------header-----------------------
 header {
     position: fixed;
@@ -22,7 +25,7 @@ header {
     .nav {
         background-color: $main-color;
         padding: 1rem 2.8rem;
-        height: 68px;
+        height: $hight-nav;
 
         .menu-bnt {
             font-size: 5.2rem;
@@ -67,12 +70,81 @@ header {
 
 // ----------------------------header-----------------------
 
+// ----------------------------FOOTER-----------------------
 
+footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 12rem;
+    border-top: 2px solid $main-color;
+    bottom: 0;
+    position: relative;
+
+    .footer-content {
+        padding-top: 8rem;
+        display: flex;
+        margin: 0 11.2rem;
+        justify-content: space-between;
+
+
+        .footer-item {
+            width: 20%;
+
+            .text-footer-heading {
+                margin-bottom: 2.8rem;
+            }
+
+            .text-footer-title {
+                font-size: 1.6rem;
+                font-weight: 400;
+                margin-bottom: 2rem;
+
+                .text-link {
+                    color: $balck-color-text;
+                }
+            }
+        }
+
+        .footer-website {
+            width: 12%;
+        }
+    }
+
+    .footer-bot {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 3.2rem;
+        margin-bottom: 2.75rem;
+
+        .footer-logo {
+            @include logo;
+            display: flex;
+            align-items: center;
+            margin-bottom: 1.6rem;
+
+        }
+
+        .footer-icon-contact {
+            .icon-footer {
+                margin-left: .4rem;
+                margin-right: .4rem;
+            }
+        }
+
+    }
+}
+
+// ----------------------------FOOTER-----------------------
+
+
+
+// ----------------------------TRANG CHU----------------------------------
 
 // ----------------------------slider-----------------------
 .slider {
 
-    margin-top: 68px;
+    margin-top: $hight-nav;
 
     .slider-from {
         // padding: 7.7rem 11.2rem;
@@ -109,9 +181,11 @@ header {
                 font-size: 2.4rem;
                 font-weight: 700;
             }
-            .slider-content-img{
+
+            .slider-content-img {
                 text-align: center;
-                img{
+
+                img {
                     width: 28rem;
                 }
             }
@@ -134,9 +208,6 @@ header {
 }
 
 // ----------------------------slider-----------------------
-
-
-
 
 // ----------------------------container-----------------------
 .container {
@@ -222,64 +293,113 @@ header {
 
 // ----------------------------container-----------------------
 
-footer {
-    display: flex;
-    flex-direction: column;
-    margin-top: 12rem;
-    border-top: 2px solid $main-color;
-    bottom: 0;
-    position:relative;
-    
-    .footer-content {
-        padding-top: 8rem;
-        display: flex;
-        margin: 0 11.2rem;
-        justify-content: space-between;
-        
+// ----------------------------TRANG CHU----------------------------------
 
-        .footer-item {
-            width: 20%;
-            
-            .text-footer-heading {
-                margin-bottom: 2.8rem;
+
+
+// ----------------------------KHAM PHA----------------------------------
+// ----------------------------slider-----------------------
+.slider-khampha {
+
+    width: 64%;
+    background: red;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: calc($hight-nav + 6.8rem);
+    display: flex;
+    justify-content: space-between;
+    gap: 0 8.4rem;
+
+    .slider-khampha-content {
+        width: calc(100%/3);
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+// ----------------------------slider-----------------------
+
+
+
+// ----------------------------container-----------------------
+.container-khampha {
+    width: 64%;
+    margin: 0 auto;
+
+    .container-khampha-content {
+        width: 89%;
+        text-align: left;
+
+        .heading-content-1-khampha {
+            font-size: 2.4rem;
+            font-weight: 700;
+            margin-top: 4.8rem;
+        }
+        .heading-content-2-khampha{
+            font-size: 2.4rem;
+            font-weight: 700;
+            margin-top: 8rem;
+        }
+
+        .title-content-1-khampha {
+            font-size: 1.6rem;
+            font-weight: 400;
+            margin: 2rem 0;
+        }
+
+        .interview-content-khampha {
+            display: flex;
+            align-items: center;
+            width: 120%;
+            .interview-content-khampha-img {
+                width: 100%;
+
+                img {
+                    width: 90%;
+                    border-radius: 50%;
+                }
             }
 
-            .text-footer-title {
-                font-size: 1.6rem;
-                font-weight: 400;
-                margin-bottom: 2rem;
-                .text-link{
-                    color: $balck-color-text;
+            .interview-content-khampha-from {
+                border-radius: 40px;
+                background-color: #191919;
+                color: white;
+                text-align: left;
+                padding: 4rem;
+                width: 100%;
+                margin-left: -20rem;
+                .heading-interview-from-khampha{
+                    font-size: 2.4rem;
+                    font-weight: 700;
+                    line-height: 1.2;
+                }
+                .title-interview-from-khampha{
+                    margin-top: 2.8rem;
+                    font-size: 1.4rem;
+                    font-weight: 500;
+                }
+            }          
+        }
+        .content-3-khampha{
+            display: flex;
+            width: 120%;
+            align-items: center;
+            gap: 0 10rem;
+            .heading-content-3-khampha{
+                width: 50%;
+            }
+            .img-content-3-khampha{
+                width: 50%;
+                img{
+                    width: 100%;
                 }
             }
         }
-
-        .footer-website{
-            width: 12%;
-        }
-    }
-
-    .footer-bot {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 3.2rem;
-        margin-bottom: 2.75rem;
-
-        .footer-logo {
-            @include logo;
-            display: flex;
-            align-items: center;
-            margin-bottom: 1.6rem;
-
-        }
-
-        .footer-icon-contact {
-            .icon-footer {
-                margin-left: .4rem;
-                margin-right: .4rem;
-            }
-        }
-
     }
 }
+
+// ----------------------------container-----------------------
+
+// ----------------------------KHAM PHA----------------------------------

@@ -22,6 +22,8 @@ $balck-color :#191919;
 $balck-color-text: #000000;
 $white-color: #FFFFFF;
 
+$hight-nav : 6.8rem;
+
 @mixin input ($width,$height){
     width: $width;
     height: $height;

@@ -132,7 +132,7 @@ header .nav-list {
 header .nav {
   background-color: #DCD7C9;
   padding: 1rem 2.8rem;
-  height: 68px;
+  height: 6.8rem;
 }
 header .nav .menu-bnt {
   font-size: 5.2rem;
@@ -167,8 +167,62 @@ header .nav .nav-login img {
   width: 2.4rem;
 }
 
+footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 12rem;
+  border-top: 2px solid #DCD7C9;
+  bottom: 0;
+  position: relative;
+}
+footer .footer-content {
+  padding-top: 8rem;
+  display: flex;
+  margin: 0 11.2rem;
+  justify-content: space-between;
+}
+footer .footer-content .footer-item {
+  width: 20%;
+}
+footer .footer-content .footer-item .text-footer-heading {
+  margin-bottom: 2.8rem;
+}
+footer .footer-content .footer-item .text-footer-title {
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+footer .footer-content .footer-item .text-footer-title .text-link {
+  color: #000000;
+}
+footer .footer-content .footer-website {
+  width: 12%;
+}
+footer .footer-bot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3.2rem;
+  margin-bottom: 2.75rem;
+}
+footer .footer-bot .footer-logo {
+  gap: 0 0.9rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.6rem;
+}
+footer .footer-bot .footer-logo p {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #000000;
+}
+footer .footer-bot .footer-icon-contact .icon-footer {
+  margin-left: 0.4rem;
+  margin-right: 0.4rem;
+}
+
 .slider {
-  margin-top: 68px;
+  margin-top: 6.8rem;
 }
 .slider .slider-from {
   display: flex;
@@ -280,58 +334,91 @@ header .nav .nav-login img {
   margin-bottom: auto;
 }
 
-footer {
+.slider-khampha {
+  width: 64%;
+  background: red;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 13.6rem;
   display: flex;
-  flex-direction: column;
-  margin-top: 12rem;
-  border-top: 2px solid #DCD7C9;
-  bottom: 0;
-  position: relative;
-}
-footer .footer-content {
-  padding-top: 8rem;
-  display: flex;
-  margin: 0 11.2rem;
   justify-content: space-between;
+  gap: 0 8.4rem;
 }
-footer .footer-content .footer-item {
-  width: 20%;
+.slider-khampha .slider-khampha-content {
+  width: 33.3333333333%;
 }
-footer .footer-content .footer-item .text-footer-heading {
-  margin-bottom: 2.8rem;
+.slider-khampha .slider-khampha-content img {
+  width: 100%;
 }
-footer .footer-content .footer-item .text-footer-title {
+
+.container-khampha {
+  width: 64%;
+  margin: 0 auto;
+}
+.container-khampha .container-khampha-content {
+  width: 89%;
+  text-align: left;
+}
+.container-khampha .container-khampha-content .heading-content-1-khampha {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-top: 4.8rem;
+}
+.container-khampha .container-khampha-content .heading-content-2-khampha {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-top: 8rem;
+}
+.container-khampha .container-khampha-content .title-content-1-khampha {
   font-size: 1.6rem;
   font-weight: 400;
-  margin-bottom: 2rem;
+  margin: 2rem 0;
 }
-footer .footer-content .footer-item .text-footer-title .text-link {
-  color: #000000;
-}
-footer .footer-content .footer-website {
-  width: 12%;
-}
-footer .footer-bot {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 3.2rem;
-  margin-bottom: 2.75rem;
-}
-footer .footer-bot .footer-logo {
-  gap: 0 0.9rem;
+.container-khampha .container-khampha-content .interview-content-khampha {
   display: flex;
   align-items: center;
-  margin-bottom: 1.6rem;
+  width: 120%;
 }
-footer .footer-bot .footer-logo p {
+.container-khampha .container-khampha-content .interview-content-khampha .interview-content-khampha-img {
+  width: 100%;
+}
+.container-khampha .container-khampha-content .interview-content-khampha .interview-content-khampha-img img {
+  width: 90%;
+  border-radius: 50%;
+}
+.container-khampha .container-khampha-content .interview-content-khampha .interview-content-khampha-from {
+  border-radius: 40px;
+  background-color: #191919;
+  color: white;
+  text-align: left;
+  padding: 4rem;
+  width: 100%;
+  margin-left: -20rem;
+}
+.container-khampha .container-khampha-content .interview-content-khampha .interview-content-khampha-from .heading-interview-from-khampha {
   font-size: 2.4rem;
-  font-weight: 600;
-  color: #000000;
+  font-weight: 700;
+  line-height: 1.2;
 }
-footer .footer-bot .footer-icon-contact .icon-footer {
-  margin-left: 0.4rem;
-  margin-right: 0.4rem;
+.container-khampha .container-khampha-content .interview-content-khampha .interview-content-khampha-from .title-interview-from-khampha {
+  margin-top: 2.8rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.container-khampha .container-khampha-content .content-3-khampha {
+  display: flex;
+  width: 120%;
+  align-items: center;
+  gap: 0 10rem;
+}
+.container-khampha .container-khampha-content .content-3-khampha .heading-content-3-khampha {
+  width: 50%;
+}
+.container-khampha .container-khampha-content .content-3-khampha .img-content-3-khampha {
+  width: 50%;
+}
+.container-khampha .container-khampha-content .content-3-khampha .img-content-3-khampha img {
+  width: 100%;
 }
 
 /*# sourceMappingURL=app.css.map */
