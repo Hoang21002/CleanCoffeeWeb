@@ -215,6 +215,8 @@ header {
 // ----------------------------container-----------------------
 
 footer{
+    display: flex;
+    flex-direction: column;
     .footer-content{
         display: flex;
         margin:0 11.2rem;
@@ -227,5 +229,21 @@ footer{
                 margin-bottom: 2rem;
             }
         }
+    }
+    .footer-bot{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .footer-logo{
+            display: flex;
+            align-items: center;       
+        }
+        .footer-icon-contact{
+            .icon-footer{
+                margin-left: .4rem;
+                margin-right: .4rem;
+            }
+        }
+        
     }
 }

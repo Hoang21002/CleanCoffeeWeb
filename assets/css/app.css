@@ -273,6 +273,10 @@ header .nav .nav-login img {
   margin-bottom: auto;
 }
 
+footer {
+  display: flex;
+  flex-direction: column;
+}
 footer .footer-content {
   display: flex;
   margin: 0 11.2rem;
@@ -285,6 +289,19 @@ footer .footer-content .footer-item .text-footer-title {
   font-size: 1.6rem;
   font-weight: 400;
   margin-bottom: 2rem;
+}
+footer .footer-bot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer .footer-bot .footer-logo {
+  display: flex;
+  align-items: center;
+}
+footer .footer-bot .footer-icon-contact .icon-footer {
+  margin-left: 0.4rem;
+  margin-right: 0.4rem;
 }
 
 /*# sourceMappingURL=app.css.map */
