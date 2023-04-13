@@ -81,7 +81,7 @@ header {
         justify-content: space-between;
 
         .slider-content {
-
+            line-height: 2;
             // width: 55.4rem;
             span {
                 font-size: 2rem;
@@ -133,34 +133,41 @@ header {
 
 // ----------------------------container-----------------------
 .container {
-    margin-bottom: 500px;
     margin-top: 4.3rem;
+
+    .text-heading-container {
+        text-align: center;
+        margin-bottom: 4rem;
+        font-size: 4rem;
+        font-weight: 700;
+
+    }
     .container-content {
         width: 80vw;
         margin-left: auto;
         margin-right: auto;
-        .text-heading-container{
-            text-align: center;
-            margin-bottom: 4rem;
-            font-size: 4rem;
-            font-weight: 700;
+        display: flex;
 
-        }
+        
+
         .container-content-left {
             padding: 10rem 0;
             background-color: #ccc;
             display: flex;
-            width: 50%;     
+            width: 50%;
             flex-direction: column;
             align-items: center;
+
             .content-left-list {
                 margin-top: 4rem;
                 width: 50%;
+
                 .content-list-top {
                     display: flex;
                     gap: 0 4rem;
                     margin-bottom: .8rem;
                     align-items: center;
+
                     .number {
                         text-align: center;
                         background: $balck-color;
@@ -169,18 +176,21 @@ header {
                         border-radius: 2.8rem;
                         font-size: 2.4rem;
                         font-weight: 700;
-                        p{
+
+                        p {
                             padding: 1rem 0;
                             font-size: 2.4rem;
                             font-weight: 700;
                         }
                     }
-                    h3{
+
+                    h3 {
                         font-size: 1.6rem;
                         font-weight: 400;
-                    }                    
+                    }
                 }
-                p{
+
+                p {
                     font-size: 1.4rem;
                     font-weight: 500;
                     font-style: italic;
@@ -189,8 +199,33 @@ header {
             }
         }
 
-        .container-content-right {}
+        .container-content-right {
+
+            background: red;
+            width: 87.3rem;
+            height: 59.2rem;
+            margin-top: auto;
+            margin-left: -6.4rem;
+            margin-bottom: auto;
+
+        }
     }
 }
 
 // ----------------------------container-----------------------
+
+footer{
+    .footer-content{
+        display: flex;
+        margin:0 11.2rem;
+        justify-content: space-between;
+        .footer-item{
+            width: 20%;
+            .text-footer-title{
+                font-size: 1.6rem;
+                font-weight: 400;
+                margin-bottom: 2rem;
+            }
+        }
+    }
+}
