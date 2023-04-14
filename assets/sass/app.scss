@@ -415,6 +415,8 @@ footer {
 
 
 // ----------------------------XEP HANG----------------------------------
+// ----------------------------slider-----------------------
+
 .slider-xephang {
     margin-top: $hight-nav;
     position: relative;
@@ -427,29 +429,122 @@ footer {
         margin-left: 11.2rem;
         position: absolute;
         top: 50%;
-        transform:translatey(-50%);
-        
-        .slider-xephang-text-1{
+        transform: translatey(-50%);
+
+        .slider-xephang-text-1 {
             font-size: 2rem;
             font-weight: 400;
             margin-bottom: 2rem;
         }
-        .slider-xephang-text-2{
+
+        .slider-xephang-text-2 {
             font-size: 4.8rem;
             font-weight: 700;
             margin-bottom: 2rem;
 
         }
-        .slider-xephang-text-3{
+
+        .slider-xephang-text-3 {
             font-size: 1.6rem;
             font-weight: 400S;
             margin-bottom: 2rem;
 
         }
-        .slider-xephang-bnt{
-            @include button(14.8rem,4rem);
+
+        .slider-xephang-bnt {
+            @include button(14.8rem, 4rem);
         }
     }
 }
+
+// ----------------------------slider-----------------------
+
+
+
+// ----------------------------container-----------------------
+.container-xephang {
+    margin-top: 8rem;
+    .container-search-xephang {
+        display: flex;
+        align-items: center;
+        width: 80vw;
+        margin: 0 auto;
+        background-color: #ccc;
+        border-radius: 16px;
+        .icon-search-xephang{
+            padding-left: 1.425rem;
+            padding-right: 1.25rem;
+        }
+        .input-search-xephang {
+            width: 100%;
+            padding: 1.825rem 0;
+            background-color: #ccc;
+            border-radius: 16px;
+
+        }
+    }
+
+    .container-content-xephang{
+        display: flex;
+        margin-top: 4.8rem;
+        align-items: center;
+        padding: 0 4.3rem;
+        .container-xephang-from{
+            width: 100%;
+            overflow: hidden;
+            margin: 0 4rem;
+            .text-heading-name-xephang-from{
+                font-size: 3.2rem;
+                font-weight: 600;
+                font-style: italic;
+                margin-bottom: 2.838rem;
+            }
+            .container-list-xephanh{
+                width: 95vw;
+                display: flex;
+                overflow: auto;
+                padding-bottom: 1.6rem;
+                scroll-snap-type:x mandatory;
+                gap: 0 5.4rem;
+                .container-list-xephang-from{
+                    display: flex;
+                    flex-direction: column;
+                    min-width: 25.3rem;
+                    scroll-snap-align: start;
+    
+
+                    .container-list-xephang-item{
+                        .card-item-xephang{
+                            .card-item-img{
+                                width: 100%;
+                                display: block;
+                            }
+                            .card-item-content{
+                                
+                                .text-heading-name-xephang-card{
+                                    font-size: 2.4rem;
+                                    font-weight: 700;
+                                    margin-bottom: 2rem;
+                                }
+                                .text-title-xephang-card{
+                                    font-size: 1.4rem;
+                                    font-weight: 500;
+                                    margin-bottom: 2.4rem;
+                                }
+                                .img-rate-xephang{
+                                    display: flex ;
+                                    margin-bottom: 2.4rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// ----------------------------container-----------------------
+
 
 // ----------------------------XEP HANG----------------------------------
