@@ -8,6 +8,7 @@
   font-family: "Montserrat", sans-serif;
   transition: all 0.2s linear;
   list-style: none;
+  overflow-x: hidden;
 }
 
 html {
@@ -482,7 +483,10 @@ footer .footer-bot .footer-icon-contact .icon-footer {
   display: flex;
   margin-top: 4.8rem;
   align-items: center;
-  padding: 0 4.3rem;
+  padding: 0 4rem;
+}
+.container-xephang .container-content-xephang .icon-arrow-container-xephang img {
+  width: 100%;
 }
 .container-xephang .container-content-xephang .container-xephang-from {
   width: 100%;
@@ -496,7 +500,6 @@ footer .footer-bot .footer-icon-contact .icon-footer {
   margin-bottom: 2.838rem;
 }
 .container-xephang .container-content-xephang .container-xephang-from .container-list-xephanh {
-  width: 95vw;
   display: flex;
   overflow: auto;
   padding-bottom: 1.6rem;
@@ -509,21 +512,21 @@ footer .footer-bot .footer-icon-contact .icon-footer {
   min-width: 25.3rem;
   scroll-snap-align: start;
 }
-.container-xephang .container-content-xephang .container-xephang-from .container-list-xephanh .container-list-xephang-from .container-list-xephang-item .card-item-xephang .card-item-img {
+.container-xephang .container-content-xephang .container-xephang-from .container-list-xephanh .container-list-xephang-from .card-item-xephang .card-item-img {
   width: 100%;
   display: block;
 }
-.container-xephang .container-content-xephang .container-xephang-from .container-list-xephanh .container-list-xephang-from .container-list-xephang-item .card-item-xephang .card-item-content .text-heading-name-xephang-card {
+.container-xephang .container-content-xephang .container-xephang-from .container-list-xephanh .container-list-xephang-from .card-item-xephang .card-item-content .text-heading-name-xephang-card {
   font-size: 2.4rem;
   font-weight: 700;
   margin-bottom: 2rem;
 }
-.container-xephang .container-content-xephang .container-xephang-from .container-list-xephanh .container-list-xephang-from .container-list-xephang-item .card-item-xephang .card-item-content .text-title-xephang-card {
+.container-xephang .container-content-xephang .container-xephang-from .container-list-xephanh .container-list-xephang-from .card-item-xephang .card-item-content .text-title-xephang-card {
   font-size: 1.4rem;
   font-weight: 500;
   margin-bottom: 2.4rem;
 }
-.container-xephang .container-content-xephang .container-xephang-from .container-list-xephanh .container-list-xephang-from .container-list-xephang-item .card-item-xephang .card-item-content .img-rate-xephang {
+.container-xephang .container-content-xephang .container-xephang-from .container-list-xephanh .container-list-xephang-from .card-item-xephang .card-item-content .img-rate-xephang {
   display: flex;
   margin-bottom: 2.4rem;
 }
