@@ -15,6 +15,11 @@
     <!-- link js -->
     <script src="/assets/script.js" defer></script>
 
+    <!-- link slick css -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"  ></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"  ></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"  ></script>
 
     <!-- link font text -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -32,9 +37,9 @@
             <a class="menu-bnt"><i class=" fas fa-bars"></i></a>
 
             <div class="nav-logo">
-                <img src="/assets/img/logo.png" alt="">
-                <p>cleancoffee</p>
-            </div>
+                <a class="nav-logo" href="index.html"><img src="/assets/img/logo.png" alt="">
+                  <p>cleancoffee</p></a>
+              </div>
 
             <div class="nav-list">
                 <a class="nav-item" href="index.html">Trang chủ</a>
@@ -68,36 +73,55 @@
     <div class="container-xephang">
         <div class="container-search-xephang">
             <img class="icon-search-xephang" src="/assets/Icons/Search.png" alt="">
-            <input class="input-search-xephang" type="text" placeholder="Sản phẩm, nhà sản xuất,.....">
+            <input class="input-search-xephang" type="text" maxlength="100" placeholder="Sản phẩm, nhà sản xuất,.....">
         </div>
 
         <div class="container-content-xephang">
-            <div class="icon-arrow-container-xephang">
 
-                <img src="/assets/Icons/ArrowLeft.png" alt="">
-            </div>
 
             <div class="container-xephang-from">
 
                 <h1 class="text-heading-name-xephang-from">Cafe Hòa Tan</h1>
-                <div class="container-list-xephanh">
+                <div class="container-list-xephanh ">
 
                     <div class="container-list-xephang-from">
 
-                        <div class="card-item-xephang">
-                            <img class="card-item-img" src="/assets/img/service-3.png" alt="">
-                            <div class="card-item-content">
-                                <h1 class="text-heading-name-xephang-card">Cà phê hòa tan G7 </h1>
-                                <p class="text-title-xephang-card">Trung Nguyên Legend</p>
-                                <div class="img-rate-xephang">
-                                    <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                    <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                    <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                    <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                    <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                </div>
-                                <p>4.7 / 5.0</p>
+
+                        <img class="card-item-img" src="/assets/img/service-3.png" alt="">
+                        <div class="card-item-content">
+                            <h1 class="text-heading-name-xephang-card">Cà phê hòa tan G7 </h1>
+                            <p class="text-title-xephang-card">Trung Nguyên Legend</p>
+                            <div class="img-rate-xephang">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
                             </div>
+                            <p>4.7 / 5.0</p>
+                        </div>
+
+
+
+
+                    </div>
+
+                    <div class="container-list-xephang-from">
+
+
+                        <img class="card-item-img" src="/assets/img/service-3.png" alt="">
+                        <div class="card-item-content">
+                            <h1 class="text-heading-name-xephang-card">Cà phê hòa tan G7 </h1>
+                            <p class="text-title-xephang-card">Trung Nguyên Legend</p>
+                            <div class="img-rate-xephang">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                            </div>
+                            <p>4.7 / 5.0</p>
+
                         </div>
 
 
@@ -106,20 +130,20 @@
 
                     <div class="container-list-xephang-from">
 
-                        <div class="card-item-xephang">
-                            <img class="card-item-img" src="/assets/img/service-3.png" alt="">
-                            <div class="card-item-content">
-                                <h1 class="text-heading-name-xephang-card">Cà phê hòa tan G7 </h1>
-                                <p class="text-title-xephang-card">Trung Nguyên Legend</p>
-                                <div class="img-rate-xephang">
-                                    <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                    <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                    <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                    <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                    <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                </div>
-                                <p>4.7 / 5.0</p>
+
+                        <img class="card-item-img" src="/assets/img/service-3.png" alt="">
+                        <div class="card-item-content">
+                            <h1 class="text-heading-name-xephang-card">Cà phê hòa tan G7 </h1>
+                            <p class="text-title-xephang-card">Trung Nguyên Legend</p>
+                            <div class="img-rate-xephang">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
                             </div>
+                            <p>4.7 / 5.0</p>
+
                         </div>
 
 
@@ -128,20 +152,20 @@
 
                     <div class="container-list-xephang-from">
 
-                        <div class="card-item-xephang">
-                            <img class="card-item-img" src="/assets/img/service-3.png" alt="">
-                            <div class="card-item-content">
-                                <h1 class="text-heading-name-xephang-card">Cà phê hòa tan G7 </h1>
-                                <p class="text-title-xephang-card">Trung Nguyên Legend</p>
-                                <div class="img-rate-xephang">
-                                    <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                    <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                    <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                    <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                    <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                </div>
-                                <p>4.7 / 5.0</p>
+
+                        <img class="card-item-img" src="/assets/img/service-3.png" alt="">
+                        <div class="card-item-content">
+                            <h1 class="text-heading-name-xephang-card">Cà phê hòa tan G7 </h1>
+                            <p class="text-title-xephang-card">Trung Nguyên Legend</p>
+                            <div class="img-rate-xephang">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
                             </div>
+                            <p>4.7 / 5.0</p>
+
                         </div>
 
 
@@ -150,20 +174,20 @@
 
                     <div class="container-list-xephang-from">
 
-                        <div class="card-item-xephang">
-                            <img class="card-item-img" src="/assets/img/service-3.png" alt="">
-                            <div class="card-item-content">
-                                <h1 class="text-heading-name-xephang-card">Cà phê hòa tan G7 </h1>
-                                <p class="text-title-xephang-card">Trung Nguyên Legend</p>
-                                <div class="img-rate-xephang">
-                                    <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                    <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                    <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                    <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                    <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                </div>
-                                <p>4.7 / 5.0</p>
+
+                        <img class="card-item-img" src="/assets/img/service-3.png" alt="">
+                        <div class="card-item-content">
+                            <h1 class="text-heading-name-xephang-card">Cà phê hòa tan G7 </h1>
+                            <p class="text-title-xephang-card">Trung Nguyên Legend</p>
+                            <div class="img-rate-xephang">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
                             </div>
+                            <p>4.7 / 5.0</p>
+
                         </div>
 
 
@@ -172,20 +196,20 @@
 
                     <div class="container-list-xephang-from">
 
-                        <div class="card-item-xephang">
-                            <img class="card-item-img" src="/assets/img/service-3.png" alt="">
-                            <div class="card-item-content">
-                                <h1 class="text-heading-name-xephang-card">Cà phê hòa tan G7 </h1>
-                                <p class="text-title-xephang-card">Trung Nguyên Legend</p>
-                                <div class="img-rate-xephang">
-                                    <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                    <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                    <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                    <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                    <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                </div>
-                                <p>4.7 / 5.0</p>
+
+                        <img class="card-item-img" src="/assets/img/service-3.png" alt="">
+                        <div class="card-item-content">
+                            <h1 class="text-heading-name-xephang-card">Cà phê hòa tan G7 </h1>
+                            <p class="text-title-xephang-card">Trung Nguyên Legend</p>
+                            <div class="img-rate-xephang">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
                             </div>
+                            <p>4.7 / 5.0</p>
+
                         </div>
 
 
@@ -194,20 +218,20 @@
 
                     <div class="container-list-xephang-from">
 
-                        <div class="card-item-xephang">
-                            <img class="card-item-img" src="/assets/img/service-3.png" alt="">
-                            <div class="card-item-content">
-                                <h1 class="text-heading-name-xephang-card">Cà phê hòa tan G7 </h1>
-                                <p class="text-title-xephang-card">Trung Nguyên Legend</p>
-                                <div class="img-rate-xephang">
-                                    <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                    <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                    <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                    <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                    <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                </div>
-                                <p>4.7 / 5.0</p>
+
+                        <img class="card-item-img" src="/assets/img/service-3.png" alt="">
+                        <div class="card-item-content">
+                            <h1 class="text-heading-name-xephang-card">Cà phê hòa tan G7 </h1>
+                            <p class="text-title-xephang-card">Trung Nguyên Legend</p>
+                            <div class="img-rate-xephang">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
                             </div>
+                            <p>4.7 / 5.0</p>
+
                         </div>
 
 
@@ -216,588 +240,491 @@
 
                     <div class="container-list-xephang-from">
 
-                        <div class="card-item-xephang">
-                            <img class="card-item-img" src="/assets/img/service-3.png" alt="">
-                            <div class="card-item-content">
-                                <h1 class="text-heading-name-xephang-card">Cà phê hòa tan G7 </h1>
-                                <p class="text-title-xephang-card">Trung Nguyên Legend</p>
-                                <div class="img-rate-xephang">
-                                    <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                    <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                    <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                    <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                    <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                </div>
-                                <p>4.7 / 5.0</p>
+
+                        <img class="card-item-img" src="/assets/img/service-3.png" alt="">
+                        <div class="card-item-content">
+                            <h1 class="text-heading-name-xephang-card">Cà phê hòa tan G7 </h1>
+                            <p class="text-title-xephang-card">Trung Nguyên Legend</p>
+                            <div class="img-rate-xephang">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
                             </div>
-                        </div>
+                            <p>4.7 / 5.0</p>
 
-
-
-                    </div>
-
-                    <div class="container-list-xephang-from">
-
-                        <div class="card-item-xephang">
-                            <img class="card-item-img" src="/assets/img/service-3.png" alt="">
-                            <div class="card-item-content">
-                                <h1 class="text-heading-name-xephang-card">Cà phê hòa tan G7 </h1>
-                                <p class="text-title-xephang-card">Trung Nguyên Legend</p>
-                                <div class="img-rate-xephang">
-                                    <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                    <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                    <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                    <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                    <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                </div>
-                                <p>4.7 / 5.0</p>
-                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="icon-arrow-container-xephang">
 
-                <img src="/assets/Icons/ArrowRight.png" alt="">
-            </div>
         </div>
 
         <div class="container-content-xephang">
-            <div class="icon-arrow-container-xephang">
 
-                <img src="/assets/Icons/ArrowLeft.png" alt="">
-            </div>
 
             <div class="container-xephang-from">
 
                 <h1 class="text-heading-name-xephang-from">Cafe Rang Xay</h1>
                 <div class="container-list-xephanh">
-                    <div class="container-list-xephang-from">                       
-                            <div class="card-item-xephang">
-                                <img class="card-item-img" src="/assets/img/service-3.png" alt="">
-                                <div class="card-item-content">
-                                    <h1 class="text-heading-name-xephang-card">Cà phê hòa tan G7 </h1>
-                                    <p class="text-title-xephang-card">Trung Nguyên Legend</p>
-                                    <div class="img-rate-xephang">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                    </div>
-                                    <p>4.7 / 5.0</p>
-                                </div>
-                            </div>                        
+                    <div class="container-list-xephang-from">
+
+                        <img class="card-item-img" src="/assets/img/service-3.png" alt="">
+                        <div class="card-item-content">
+                            <h1 class="text-heading-name-xephang-card">Cà phê hòa tan G7 </h1>
+                            <p class="text-title-xephang-card">Trung Nguyên Legend</p>
+                            <div class="img-rate-xephang">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                            </div>
+                            <p>4.7 / 5.0</p>
+
+                        </div>
                     </div>
 
                     <div class="container-list-xephang-from">
-                        
-                            <div class="card-item-xephang">
-                                <img class="card-item-img" src="/assets/img/service-3.png" alt="">
-                                <div class="card-item-content">
-                                    <h1 class="text-heading-name-xephang-card">Cà phê hòa tan G7 </h1>
-                                    <p class="text-title-xephang-card">Trung Nguyên Legend</p>
-                                    <div class="img-rate-xephang">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                    </div>
-                                    <p>4.7 / 5.0</p>
-                                </div>
+
+
+                        <img class="card-item-img" src="/assets/img/service-3.png" alt="">
+                        <div class="card-item-content">
+                            <h1 class="text-heading-name-xephang-card">Cà phê hòa tan G7 </h1>
+                            <p class="text-title-xephang-card">Trung Nguyên Legend</p>
+                            <div class="img-rate-xephang">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
                             </div>
-                        
+                            <p>4.7 / 5.0</p>
+                        </div>
                     </div>
 
                     <div class="container-list-xephang-from">
-                        
-                            <div class="card-item-xephang">
-                                <img class="card-item-img" src="/assets/img/service-3.png" alt="">
-                                <div class="card-item-content">
-                                    <h1 class="text-heading-name-xephang-card">Cà phê hòa tan G7 </h1>
-                                    <p class="text-title-xephang-card">Trung Nguyên Legend</p>
-                                    <div class="img-rate-xephang">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                    </div>
-                                    <p>4.7 / 5.0</p>
-                                </div>
+
+
+                        <img class="card-item-img" src="/assets/img/service-3.png" alt="">
+                        <div class="card-item-content">
+                            <h1 class="text-heading-name-xephang-card">Cà phê hòa tan G7 </h1>
+                            <p class="text-title-xephang-card">Trung Nguyên Legend</p>
+                            <div class="img-rate-xephang">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
                             </div>
-                        
+                            <p>4.7 / 5.0</p>
+                        </div>
                     </div>
 
                     <div class="container-list-xephang-from">
-                        
-                            <div class="card-item-xephang">
-                                <img class="card-item-img" src="/assets/img/service-3.png" alt="">
-                                <div class="card-item-content">
-                                    <h1 class="text-heading-name-xephang-card">Cà phê hòa tan G7 </h1>
-                                    <p class="text-title-xephang-card">Trung Nguyên Legend</p>
-                                    <div class="img-rate-xephang">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                    </div>
-                                    <p>4.7 / 5.0</p>
-                                </div>
+
+
+                        <img class="card-item-img" src="/assets/img/service-3.png" alt="">
+                        <div class="card-item-content">
+                            <h1 class="text-heading-name-xephang-card">Cà phê hòa tan G7 </h1>
+                            <p class="text-title-xephang-card">Trung Nguyên Legend</p>
+                            <div class="img-rate-xephang">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
                             </div>
-                        
+                            <p>4.7 / 5.0</p>
+                        </div>
                     </div>
 
                     <div class="container-list-xephang-from">
-                        
-                            <div class="card-item-xephang">
-                                <img class="card-item-img" src="/assets/img/service-3.png" alt="">
-                                <div class="card-item-content">
-                                    <h1 class="text-heading-name-xephang-card">Cà phê hòa tan G7 </h1>
-                                    <p class="text-title-xephang-card">Trung Nguyên Legend</p>
-                                    <div class="img-rate-xephang">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                    </div>
-                                    <p>4.7 / 5.0</p>
-                                </div>
+
+
+                        <img class="card-item-img" src="/assets/img/service-3.png" alt="">
+                        <div class="card-item-content">
+                            <h1 class="text-heading-name-xephang-card">Cà phê hòa tan G7 </h1>
+                            <p class="text-title-xephang-card">Trung Nguyên Legend</p>
+                            <div class="img-rate-xephang">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
                             </div>
-                        
+                            <p>4.7 / 5.0</p>
+                        </div>
                     </div>
 
                     <div class="container-list-xephang-from">
-                        
-                            <div class="card-item-xephang">
-                                <img class="card-item-img" src="/assets/img/service-3.png" alt="">
-                                <div class="card-item-content">
-                                    <h1 class="text-heading-name-xephang-card">Cà phê hòa tan G7 </h1>
-                                    <p class="text-title-xephang-card">Trung Nguyên Legend</p>
-                                    <div class="img-rate-xephang">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                    </div>
-                                    <p>4.7 / 5.0</p>
-                                </div>
+
+
+                        <img class="card-item-img" src="/assets/img/service-3.png" alt="">
+                        <div class="card-item-content">
+                            <h1 class="text-heading-name-xephang-card">Cà phê hòa tan G7 </h1>
+                            <p class="text-title-xephang-card">Trung Nguyên Legend</p>
+                            <div class="img-rate-xephang">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
                             </div>
-                        
+                            <p>4.7 / 5.0</p>
+                        </div>
                     </div>
 
                     <div class="container-list-xephang-from">
-                        
-                            <div class="card-item-xephang">
-                                <img class="card-item-img" src="/assets/img/service-3.png" alt="">
-                                <div class="card-item-content">
-                                    <h1 class="text-heading-name-xephang-card">Cà phê hòa tan G7 </h1>
-                                    <p class="text-title-xephang-card">Trung Nguyên Legend</p>
-                                    <div class="img-rate-xephang">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                    </div>
-                                    <p>4.7 / 5.0</p>
-                                </div>
+
+
+                        <img class="card-item-img" src="/assets/img/service-3.png" alt="">
+                        <div class="card-item-content">
+                            <h1 class="text-heading-name-xephang-card">Cà phê hòa tan G7 </h1>
+                            <p class="text-title-xephang-card">Trung Nguyên Legend</p>
+                            <div class="img-rate-xephang">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
                             </div>
-                        
+                            <p>4.7 / 5.0</p>
+                        </div>
                     </div>
 
                     <div class="container-list-xephang-from">
-                        
-                            <div class="card-item-xephang">
-                                <img class="card-item-img" src="/assets/img/service-3.png" alt="">
-                                <div class="card-item-content">
-                                    <h1 class="text-heading-name-xephang-card">Cà phê hòa tan G7 </h1>
-                                    <p class="text-title-xephang-card">Trung Nguyên Legend</p>
-                                    <div class="img-rate-xephang">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                    </div>
-                                    <p>4.7 / 5.0</p>
-                                </div>
+
+
+                        <img class="card-item-img" src="/assets/img/service-3.png" alt="">
+                        <div class="card-item-content">
+                            <h1 class="text-heading-name-xephang-card">Cà phê hòa tan G7 </h1>
+                            <p class="text-title-xephang-card">Trung Nguyên Legend</p>
+                            <div class="img-rate-xephang">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
                             </div>
-                        
+                            <p>4.7 / 5.0</p>
+                        </div>
                     </div>
 
 
                 </div>
             </div>
 
-            <div class="icon-arrow-container-xephang">
 
-                <img src="/assets/Icons/ArrowRight.png" alt="">
-            </div>
         </div>
 
         <div class="container-content-xephang">
-            <div class="icon-arrow-container-xephang">
 
-                <img src="/assets/Icons/ArrowLeft.png" alt="">
-            </div>
 
             <div class="container-xephang-from">
 
                 <h1 class="text-heading-name-xephang-from">Được Người Dùng Bình Chọn</h1>
                 <div class="container-list-xephanh">
                     <div class="container-list-xephang-from">
-                        
-                            <div class="card-item-xephang">
-                                <img class="card-item-img" src="/assets/img/service-3.png" alt="">
-                                <div class="card-item-content">
-                                    <h1 class="text-heading-name-xephang-card">Cà phê hòa tan G7 </h1>
-                                    <p class="text-title-xephang-card">Trung Nguyên Legend</p>
-                                    <div class="img-rate-xephang">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                    </div>
-                                    <p>4.7 / 5.0</p>
-                                </div>
+
+
+                        <img class="card-item-img" src="/assets/img/service-3.png" alt="">
+                        <div class="card-item-content">
+                            <h1 class="text-heading-name-xephang-card">Cà phê hòa tan G7 </h1>
+                            <p class="text-title-xephang-card">Trung Nguyên Legend</p>
+                            <div class="img-rate-xephang">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
                             </div>
-                        
+                            <p>4.7 / 5.0</p>
+                        </div>
                     </div>
 
                     <div class="container-list-xephang-from">
-                        
-                            <div class="card-item-xephang">
-                                <img class="card-item-img" src="/assets/img/service-3.png" alt="">
-                                <div class="card-item-content">
-                                    <h1 class="text-heading-name-xephang-card">Cà phê hòa tan G7 </h1>
-                                    <p class="text-title-xephang-card">Trung Nguyên Legend</p>
-                                    <div class="img-rate-xephang">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                    </div>
-                                    <p>4.7 / 5.0</p>
-                                </div>
+
+
+                        <img class="card-item-img" src="/assets/img/service-3.png" alt="">
+                        <div class="card-item-content">
+                            <h1 class="text-heading-name-xephang-card">Cà phê hòa tan G7 </h1>
+                            <p class="text-title-xephang-card">Trung Nguyên Legend</p>
+                            <div class="img-rate-xephang">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
                             </div>
-                        
+                            <p>4.7 / 5.0</p>
+                        </div>
                     </div>
 
                     <div class="container-list-xephang-from">
-                        
-                            <div class="card-item-xephang">
-                                <img class="card-item-img" src="/assets/img/service-3.png" alt="">
-                                <div class="card-item-content">
-                                    <h1 class="text-heading-name-xephang-card">Cà phê hòa tan G7 </h1>
-                                    <p class="text-title-xephang-card">Trung Nguyên Legend</p>
-                                    <div class="img-rate-xephang">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                    </div>
-                                    <p>4.7 / 5.0</p>
-                                </div>
+
+
+                        <img class="card-item-img" src="/assets/img/service-3.png" alt="">
+                        <div class="card-item-content">
+                            <h1 class="text-heading-name-xephang-card">Cà phê hòa tan G7 </h1>
+                            <p class="text-title-xephang-card">Trung Nguyên Legend</p>
+                            <div class="img-rate-xephang">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
                             </div>
-                        
+                            <p>4.7 / 5.0</p>
+                        </div>
                     </div>
 
                     <div class="container-list-xephang-from">
-                        
-                            <div class="card-item-xephang">
-                                <img class="card-item-img" src="/assets/img/service-3.png" alt="">
-                                <div class="card-item-content">
-                                    <h1 class="text-heading-name-xephang-card">Cà phê hòa tan G7 </h1>
-                                    <p class="text-title-xephang-card">Trung Nguyên Legend</p>
-                                    <div class="img-rate-xephang">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                    </div>
-                                    <p>4.7 / 5.0</p>
-                                </div>
+
+
+                        <img class="card-item-img" src="/assets/img/service-3.png" alt="">
+                        <div class="card-item-content">
+                            <h1 class="text-heading-name-xephang-card">Cà phê hòa tan G7 </h1>
+                            <p class="text-title-xephang-card">Trung Nguyên Legend</p>
+                            <div class="img-rate-xephang">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
                             </div>
-                        
+                            <p>4.7 / 5.0</p>
+                        </div>
                     </div>
 
                     <div class="container-list-xephang-from">
-                        
-                            <div class="card-item-xephang">
-                                <img class="card-item-img" src="/assets/img/service-3.png" alt="">
-                                <div class="card-item-content">
-                                    <h1 class="text-heading-name-xephang-card">Cà phê hòa tan G7 </h1>
-                                    <p class="text-title-xephang-card">Trung Nguyên Legend</p>
-                                    <div class="img-rate-xephang">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                    </div>
-                                    <p>4.7 / 5.0</p>
-                                </div>
+
+
+                        <img class="card-item-img" src="/assets/img/service-3.png" alt="">
+                        <div class="card-item-content">
+                            <h1 class="text-heading-name-xephang-card">Cà phê hòa tan G7 </h1>
+                            <p class="text-title-xephang-card">Trung Nguyên Legend</p>
+                            <div class="img-rate-xephang">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
                             </div>
-                        
+                            <p>4.7 / 5.0</p>
+                        </div>
                     </div>
 
                     <div class="container-list-xephang-from">
-                        
-                            <div class="card-item-xephang">
-                                <img class="card-item-img" src="/assets/img/service-3.png" alt="">
-                                <div class="card-item-content">
-                                    <h1 class="text-heading-name-xephang-card">Cà phê hòa tan G7 </h1>
-                                    <p class="text-title-xephang-card">Trung Nguyên Legend</p>
-                                    <div class="img-rate-xephang">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                    </div>
-                                    <p>4.7 / 5.0</p>
-                                </div>
+
+
+                        <img class="card-item-img" src="/assets/img/service-3.png" alt="">
+                        <div class="card-item-content">
+                            <h1 class="text-heading-name-xephang-card">Cà phê hòa tan G7 </h1>
+                            <p class="text-title-xephang-card">Trung Nguyên Legend</p>
+                            <div class="img-rate-xephang">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
                             </div>
-                        
+                            <p>4.7 / 5.0</p>
+                        </div>
                     </div>
 
                     <div class="container-list-xephang-from">
-                        
-                            <div class="card-item-xephang">
-                                <img class="card-item-img" src="/assets/img/service-3.png" alt="">
-                                <div class="card-item-content">
-                                    <h1 class="text-heading-name-xephang-card">Cà phê hòa tan G7 </h1>
-                                    <p class="text-title-xephang-card">Trung Nguyên Legend</p>
-                                    <div class="img-rate-xephang">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                    </div>
-                                    <p>4.7 / 5.0</p>
-                                </div>
+
+
+                        <img class="card-item-img" src="/assets/img/service-3.png" alt="">
+                        <div class="card-item-content">
+                            <h1 class="text-heading-name-xephang-card">Cà phê hòa tan G7 </h1>
+                            <p class="text-title-xephang-card">Trung Nguyên Legend</p>
+                            <div class="img-rate-xephang">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
                             </div>
-                        
+                            <p>4.7 / 5.0</p>
+                        </div>
                     </div>
 
                     <div class="container-list-xephang-from">
-                        
-                            <div class="card-item-xephang">
-                                <img class="card-item-img" src="/assets/img/service-3.png" alt="">
-                                <div class="card-item-content">
-                                    <h1 class="text-heading-name-xephang-card">Cà phê hòa tan G7 </h1>
-                                    <p class="text-title-xephang-card">Trung Nguyên Legend</p>
-                                    <div class="img-rate-xephang">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                    </div>
-                                    <p>4.7 / 5.0</p>
-                                </div>
+
+
+                        <img class="card-item-img" src="/assets/img/service-3.png" alt="">
+                        <div class="card-item-content">
+                            <h1 class="text-heading-name-xephang-card">Cà phê hòa tan G7 </h1>
+                            <p class="text-title-xephang-card">Trung Nguyên Legend</p>
+                            <div class="img-rate-xephang">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
                             </div>
-                        
+                            <p>4.7 / 5.0</p>
+                        </div>
                     </div>
 
 
                 </div>
             </div>
 
-            <div class="icon-arrow-container-xephang">
 
-                <img src="/assets/Icons/ArrowRight.png" alt="">
-            </div>
         </div>
 
         <div class="container-content-xephang">
-            <div class="icon-arrow-container-xephang">
 
-                <img src="/assets/Icons/ArrowLeft.png" alt="">
-            </div>
 
             <div class="container-xephang-from">
 
                 <h1 class="text-heading-name-xephang-from">Được Đánh Giá Cao Bởi Chuyên Gia</h1>
                 <div class="container-list-xephanh">
                     <div class="container-list-xephang-from">
-                        
-                            <div class="card-item-xephang">
-                                <img class="card-item-img" src="/assets/img/service-3.png" alt="">
-                                <div class="card-item-content">
-                                    <h1 class="text-heading-name-xephang-card">Cà phê hòa tan G7 </h1>
-                                    <p class="text-title-xephang-card">Trung Nguyên Legend</p>
-                                    <div class="img-rate-xephang">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                    </div>
-                                    <p>4.7 / 5.0</p>
-                                </div>
+
+
+                        <img class="card-item-img" src="/assets/img/service-3.png" alt="">
+                        <div class="card-item-content">
+                            <h1 class="text-heading-name-xephang-card">Cà phê hòa tan G7 </h1>
+                            <p class="text-title-xephang-card">Trung Nguyên Legend</p>
+                            <div class="img-rate-xephang">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
                             </div>
-                        
+                            <p>4.7 / 5.0</p>
+                        </div>
                     </div>
 
                     <div class="container-list-xephang-from">
-                        
-                            <div class="card-item-xephang">
-                                <img class="card-item-img" src="/assets/img/service-3.png" alt="">
-                                <div class="card-item-content">
-                                    <h1 class="text-heading-name-xephang-card">Cà phê hòa tan G7 </h1>
-                                    <p class="text-title-xephang-card">Trung Nguyên Legend</p>
-                                    <div class="img-rate-xephang">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                    </div>
-                                    <p>4.7 / 5.0</p>
-                                </div>
+
+
+                        <img class="card-item-img" src="/assets/img/service-3.png" alt="">
+                        <div class="card-item-content">
+                            <h1 class="text-heading-name-xephang-card">Cà phê hòa tan G7 </h1>
+                            <p class="text-title-xephang-card">Trung Nguyên Legend</p>
+                            <div class="img-rate-xephang">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
                             </div>
-                        
+                            <p>4.7 / 5.0</p>
+                        </div>
                     </div>
 
                     <div class="container-list-xephang-from">
-                        
-                            <div class="card-item-xephang">
-                                <img class="card-item-img" src="/assets/img/service-3.png" alt="">
-                                <div class="card-item-content">
-                                    <h1 class="text-heading-name-xephang-card">Cà phê hòa tan G7 </h1>
-                                    <p class="text-title-xephang-card">Trung Nguyên Legend</p>
-                                    <div class="img-rate-xephang">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                    </div>
-                                    <p>4.7 / 5.0</p>
-                                </div>
+
+
+                        <img class="card-item-img" src="/assets/img/service-3.png" alt="">
+                        <div class="card-item-content">
+                            <h1 class="text-heading-name-xephang-card">Cà phê hòa tan G7 </h1>
+                            <p class="text-title-xephang-card">Trung Nguyên Legend</p>
+                            <div class="img-rate-xephang">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
                             </div>
-                        
+                            <p>4.7 / 5.0</p>
+                        </div>
                     </div>
 
                     <div class="container-list-xephang-from">
-                        
-                            <div class="card-item-xephang">
-                                <img class="card-item-img" src="/assets/img/service-3.png" alt="">
-                                <div class="card-item-content">
-                                    <h1 class="text-heading-name-xephang-card">Cà phê hòa tan G7 </h1>
-                                    <p class="text-title-xephang-card">Trung Nguyên Legend</p>
-                                    <div class="img-rate-xephang">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                    </div>
-                                    <p>4.7 / 5.0</p>
-                                </div>
+
+
+                        <img class="card-item-img" src="/assets/img/service-3.png" alt="">
+                        <div class="card-item-content">
+                            <h1 class="text-heading-name-xephang-card">Cà phê hòa tan G7 </h1>
+                            <p class="text-title-xephang-card">Trung Nguyên Legend</p>
+                            <div class="img-rate-xephang">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
                             </div>
-                        
+                            <p>4.7 / 5.0</p>
+                        </div>
                     </div>
 
                     <div class="container-list-xephang-from">
-                        
-                            <div class="card-item-xephang">
-                                <img class="card-item-img" src="/assets/img/service-3.png" alt="">
-                                <div class="card-item-content">
-                                    <h1 class="text-heading-name-xephang-card">Cà phê hòa tan G7 </h1>
-                                    <p class="text-title-xephang-card">Trung Nguyên Legend</p>
-                                    <div class="img-rate-xephang">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                    </div>
-                                    <p>4.7 / 5.0</p>
-                                </div>
+
+
+                        <img class="card-item-img" src="/assets/img/service-3.png" alt="">
+                        <div class="card-item-content">
+                            <h1 class="text-heading-name-xephang-card">Cà phê hòa tan G7 </h1>
+                            <p class="text-title-xephang-card">Trung Nguyên Legend</p>
+                            <div class="img-rate-xephang">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
                             </div>
-                        
+                            <p>4.7 / 5.0</p>
+                        </div>
                     </div>
 
                     <div class="container-list-xephang-from">
-                        
-                            <div class="card-item-xephang">
-                                <img class="card-item-img" src="/assets/img/service-3.png" alt="">
-                                <div class="card-item-content">
-                                    <h1 class="text-heading-name-xephang-card">Cà phê hòa tan G7 </h1>
-                                    <p class="text-title-xephang-card">Trung Nguyên Legend</p>
-                                    <div class="img-rate-xephang">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                    </div>
-                                    <p>4.7 / 5.0</p>
-                                </div>
+
+
+                        <img class="card-item-img" src="/assets/img/service-3.png" alt="">
+                        <div class="card-item-content">
+                            <h1 class="text-heading-name-xephang-card">Cà phê hòa tan G7 </h1>
+                            <p class="text-title-xephang-card">Trung Nguyên Legend</p>
+                            <div class="img-rate-xephang">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
                             </div>
-                        
+                            <p>4.7 / 5.0</p>
+                        </div>
                     </div>
 
                     <div class="container-list-xephang-from">
-                        
-                            <div class="card-item-xephang">
-                                <img class="card-item-img" src="/assets/img/service-3.png" alt="">
-                                <div class="card-item-content">
-                                    <h1 class="text-heading-name-xephang-card">Cà phê hòa tan G7 </h1>
-                                    <p class="text-title-xephang-card">Trung Nguyên Legend</p>
-                                    <div class="img-rate-xephang">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                    </div>
-                                    <p>4.7 / 5.0</p>
-                                </div>
+                        <img class="card-item-img" src="/assets/img/service-3.png" alt="">
+                        <div class="card-item-content">
+                            <h1 class="text-heading-name-xephang-card">Cà phê hòa tan G7 </h1>
+                            <p class="text-title-xephang-card">Trung Nguyên Legend</p>
+                            <div class="img-rate-xephang">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
                             </div>
-                        
+                            <p>4.7 / 5.0</p>
+                        </div>
                     </div>
 
                     <div class="container-list-xephang-from">
-                        
-                            <div class="card-item-xephang">
-                                <img class="card-item-img" src="/assets/img/service-3.png" alt="">
-                                <div class="card-item-content">
-                                    <h1 class="text-heading-name-xephang-card">Cà phê hòa tan G7 </h1>
-                                    <p class="text-title-xephang-card">Trung Nguyên Legend</p>
-                                    <div class="img-rate-xephang">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                        <img class="icon-star" src="/assets/Icons/Star.png" alt="">
-                                    </div>
-                                    <p>4.7 / 5.0</p>
-                                </div>
+                        <img class="card-item-img" src="/assets/img/service-3.png" alt="">
+                        <div class="card-item-content">
+                            <h1 class="text-heading-name-xephang-card">Cà phê hòa tan G7 </h1>
+                            <p class="text-title-xephang-card">Trung Nguyên Legend</p>
+                            <div class="img-rate-xephang">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
+                                <img class="icon-star" src="/assets/Icons/Star.png" alt="">
                             </div>
-                        
+                            <p>4.7 / 5.0</p>
+                        </div>
                     </div>
-
-
                 </div>
-            </div>
-
-            <div class="icon-arrow-container-xephang">
-
-                <img src="/assets/Icons/ArrowRight.png" alt="">
             </div>
         </div>
     </div>
@@ -861,6 +788,7 @@
 
     </footer>
     <!-- ------------------------------------FOOTER---------------------------------------->
+    
 </body>
 
 </html>

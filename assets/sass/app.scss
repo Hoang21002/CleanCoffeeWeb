@@ -34,14 +34,18 @@ header {
         }
 
         .nav-logo {
-
-            gap: 0 0.9rem;
-
-            p {
-                font-size: 2.4rem;
-                font-weight: 600;
-                color: $balck-color-text;
-            }
+            
+            
+                display: flex;
+                align-items: center;
+                gap: 0.9rem;
+                
+                p {
+                    font-size: 2.4rem;
+                    font-weight: 600;
+                    color: $balck-color-text;
+                }
+            
         }
 
         .nav-list {
@@ -312,7 +316,7 @@ footer {
 
     .slider-khampha-content {
         width: calc(100%/3);
-
+        clip-path: polygon(30% 0, 100% 0, 70% 100%, 0% 100%);
         img {
             width: 100%;
         }
@@ -479,6 +483,8 @@ footer {
         }
 
         .input-search-xephang {
+            font-size: 2rem;
+            font-weight: 500;
             width: 100%;
             padding: 1.825rem 0;
             background-color: #ccc;
@@ -491,70 +497,90 @@ footer {
         display: flex;
         margin-top: 4.8rem;
         align-items: center;
-        padding: 0 4rem;
-        .icon-arrow-container-xephang{
-            img{
+
+
+        .icon-arrow-container-xephang {
+            img {
                 width: 100%;
             }
         }
 
         .container-xephang-from {
-            width: 100%;
-            overflow: hidden;
-            margin: 0 4rem;
+
 
             .text-heading-name-xephang-from {
                 font-size: 3.2rem;
                 font-weight: 600;
                 font-style: italic;
                 margin-bottom: 2.838rem;
+                margin-left: 11.2rem;
             }
 
             .container-list-xephanh {
-                
+
                 display: flex;
-                overflow: auto;
-                padding-bottom: 1.6rem;
-                scroll-snap-type: x mandatory;
-                gap: 0 5.4rem;
+                justify-content: space-between;
+
+                .slick-arrow {
+                    background: none;
+                    cursor: pointer;
+                }
+
+                .slick-prev {
+                    margin-left: 4rem;
+                }
+
+                .slick-next {
+                    margin-right: 4rem;
+                    margin-left: 4rem;
+                }
+
+                .slick-list {
+                    width: 90vw;
+
+                    .slick-track {
+                        display: flex;
+                        gap: 4rem;
+
+                    }
+                }
 
                 .container-list-xephang-from {
                     display: flex;
                     flex-direction: column;
                     min-width: 25.3rem;
                     scroll-snap-align: start;
+                    cursor: pointer;
 
+                    .card-item-img {
+                        width: 100%;
+                        display: block;
+                    }
 
+                    .card-item-content {
 
-
-                    .card-item-xephang {
-                        .card-item-img {
-                            width: 100%;
-                            display: block;
+                        .text-heading-name-xephang-card {
+                            font-size: 2.4rem;
+                            font-weight: 700;
+                            margin-bottom: 2rem;
                         }
 
-                        .card-item-content {
+                        .text-title-xephang-card {
+                            font-size: 1.4rem;
+                            font-weight: 500;
+                            margin-bottom: 2.4rem;
+                        }
 
-                            .text-heading-name-xephang-card {
-                                font-size: 2.4rem;
-                                font-weight: 700;
-                                margin-bottom: 2rem;
-                            }
-
-                            .text-title-xephang-card {
-                                font-size: 1.4rem;
-                                font-weight: 500;
-                                margin-bottom: 2.4rem;
-                            }
-
-                            .img-rate-xephang {
-                                display: flex;
-                                margin-bottom: 2.4rem;
-                            }
+                        .img-rate-xephang {
+                            display: flex;
+                            gap: 1.7rem;
+                            margin-bottom: 2.4rem;
                         }
                     }
 
+
                 }
+
             }
         }
     }
