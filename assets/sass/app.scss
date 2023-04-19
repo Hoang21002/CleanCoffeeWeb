@@ -34,18 +34,18 @@ header {
         }
 
         .nav-logo {
-            
-            
-                display: flex;
-                align-items: center;
-                gap: 0.9rem;
-                
-                p {
-                    font-size: 2.4rem;
-                    font-weight: 600;
-                    color: $balck-color-text;
-                }
-            
+
+
+            display: flex;
+            align-items: center;
+            gap: 0.9rem;
+
+            p {
+                font-size: 2.4rem;
+                font-weight: 600;
+                color: $balck-color-text;
+            }
+
         }
 
         .nav-list {
@@ -74,7 +74,7 @@ header {
 
 // ----------------------------header-----------------------
 
-// ----------------------------FOOTER-----------------------
+// ----------------------------FOOTER START-----------------------
 
 footer {
     display: flex;
@@ -139,13 +139,13 @@ footer {
     }
 }
 
-// ----------------------------FOOTER-----------------------
+// ----------------------------FOOTER END-----------------------
 
 
 
-// ----------------------------TRANG CHU----------------------------------
+// ----------------------------TRANG CHU START----------------------------------
 
-// ----------------------------slider-----------------------
+// --------------------------SLIDER---------------------
 .slider {
 
     margin-top: $hight-nav;
@@ -211,7 +211,7 @@ footer {
 
 }
 
-// ----------------------------slider-----------------------
+// --------------------------SLIDER---------------------
 
 // ----------------------------container-----------------------
 .container {
@@ -297,12 +297,12 @@ footer {
 
 // ----------------------------container-----------------------
 
-// ----------------------------TRANG CHU----------------------------------
+// ----------------------------TRANG CHU END----------------------------------
 
 
 
-// ----------------------------KHAM PHA----------------------------------
-// ----------------------------slider-----------------------
+// ----------------------------KHAM PHA START----------------------------------
+// --------------------------SLIDER---------------------
 .slider-khampha {
 
     width: 64%;
@@ -317,13 +317,14 @@ footer {
     .slider-khampha-content {
         width: calc(100%/3);
         clip-path: polygon(30% 0, 100% 0, 70% 100%, 0% 100%);
+
         img {
             width: 100%;
         }
     }
 }
 
-// ----------------------------slider-----------------------
+// --------------------------SLIDER---------------------
 
 
 
@@ -414,12 +415,12 @@ footer {
 
 // ----------------------------container-----------------------
 
-// ----------------------------KHAM PHA----------------------------------
+// ----------------------------KHAM PHA END----------------------------------
 
 
 
-// ----------------------------XEP HANG----------------------------------
-// ----------------------------slider-----------------------
+// ----------------------------XEP HANG START----------------------------------
+// --------------------------SLIDER---------------------
 
 .slider-xephang {
     margin-top: $hight-nav;
@@ -461,7 +462,7 @@ footer {
     }
 }
 
-// ----------------------------slider-----------------------
+// --------------------------SLIDER---------------------
 
 
 
@@ -589,4 +590,117 @@ footer {
 // ----------------------------container-----------------------
 
 
-// ----------------------------XEP HANG----------------------------------
+// ----------------------------XEP HANG END----------------------------------
+
+
+// ----------------------------ABOUT START----------------------------------
+.slider-about {
+    margin-top: $hight-nav;
+    margin-left: 11.2rem;
+    margin-right: 11.2rem;
+    
+    .slider-content-about {
+        display: flex;
+        
+        
+        .slider-top-bot-about {
+            width: 50%;
+            // background-color: #ccc;
+            display: flex;
+            align-items: center;
+            .text-slider-about {
+                margin-left: auto;
+                margin-right: auto;
+                max-width: 56rem;
+                
+                .heading-slider-about {
+                    font-size: 2.4rem;
+                    font-weight: 700;
+                    margin-bottom: 4rem;
+                }
+
+                .title-slider-about {
+                    font-size: 2rem;
+                    font-weight: 400;
+                }
+            }
+            .img-slider-about{
+                width: 100%;
+            }
+        }
+
+        
+    }
+}
+
+.container-about{
+    margin-top: 80px;
+    .header-container-about{
+        text-align: center;
+        font-size: 3.2rem;
+        font-weight: 600;
+    }
+    .container-service-about{
+        width: 80vw;
+        margin-left: auto;
+        margin-right: auto;
+        
+        .cards-service-about{
+            margin-top: 80px;
+            display: flex;
+            // flex-wrap: wrap;
+            justify-content: space-between;
+            .card-service-about{
+                max-width: 60.8rem;
+
+                .card-top-service-about{
+                    .img-card-service-about{
+                        width: 100%;
+                    }
+                }
+                .card-bot-service-about{
+                    margin-top: 20px;
+                    .heading-card-service-about{
+                        font-size: 2.4rem;
+                        font-weight: 700;
+                        margin-bottom: 16px;
+                    }
+                    .title-card-service-about{
+                        font-size: 2rem;
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+
+    }
+
+    .container-founder-about{
+        margin-top: 120px;
+        .cards-founder-about{
+            display: flex;
+            width: 90vw;
+            gap: 32px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 80px;
+            .card-founder-about{
+                width: calc(100%/4);
+                .img-card-founder-about{
+                    width: 100%;
+                }
+                .name-founder-card-about{
+                    font-size: 3.2rem;
+                    font-weight: 600;
+                    margin-top: 4rem;
+                    margin-bottom: .8rem;
+                }
+                .title-founder-card-about{
+                    font-size: 1.4rem;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}
+// ----------------------------ABOUT END----------------------------------

@@ -547,4 +547,99 @@ footer .footer-bot .footer-icon-contact .icon-footer {
   margin-bottom: 2.4rem;
 }
 
+.slider-about {
+  margin-top: 6.8rem;
+  margin-left: 11.2rem;
+  margin-right: 11.2rem;
+}
+.slider-about .slider-content-about {
+  display: flex;
+}
+.slider-about .slider-content-about .slider-top-bot-about {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.slider-about .slider-content-about .slider-top-bot-about .text-slider-about {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 56rem;
+}
+.slider-about .slider-content-about .slider-top-bot-about .text-slider-about .heading-slider-about {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 4rem;
+}
+.slider-about .slider-content-about .slider-top-bot-about .text-slider-about .title-slider-about {
+  font-size: 2rem;
+  font-weight: 400;
+}
+.slider-about .slider-content-about .slider-top-bot-about .img-slider-about {
+  width: 100%;
+}
+
+.container-about {
+  margin-top: 80px;
+}
+.container-about .header-container-about {
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: 600;
+}
+.container-about .container-service-about {
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container-about .container-service-about .cards-service-about {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.container-about .container-service-about .cards-service-about .card-service-about {
+  max-width: 60.8rem;
+}
+.container-about .container-service-about .cards-service-about .card-service-about .card-top-service-about .img-card-service-about {
+  width: 100%;
+}
+.container-about .container-service-about .cards-service-about .card-service-about .card-bot-service-about {
+  margin-top: 20px;
+}
+.container-about .container-service-about .cards-service-about .card-service-about .card-bot-service-about .heading-card-service-about {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.container-about .container-service-about .cards-service-about .card-service-about .card-bot-service-about .title-card-service-about {
+  font-size: 2rem;
+  font-weight: 400;
+}
+.container-about .container-founder-about {
+  margin-top: 120px;
+}
+.container-about .container-founder-about .cards-founder-about {
+  display: flex;
+  width: 90vw;
+  gap: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+}
+.container-about .container-founder-about .cards-founder-about .card-founder-about {
+  width: 25%;
+}
+.container-about .container-founder-about .cards-founder-about .card-founder-about .img-card-founder-about {
+  width: 100%;
+}
+.container-about .container-founder-about .cards-founder-about .card-founder-about .name-founder-card-about {
+  font-size: 3.2rem;
+  font-weight: 600;
+  margin-top: 4rem;
+  margin-bottom: 0.8rem;
+}
+.container-about .container-founder-about .cards-founder-about .card-founder-about .title-founder-card-about {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
 /*# sourceMappingURL=app.css.map */
