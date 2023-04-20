@@ -359,13 +359,16 @@ footer {
             display: flex;
             align-items: center;
             width: 120%;
+            margin-top: 120px;
 
             .interview-content-khampha-img {
                 width: 100%;
+                clip-path: circle(50% at 50% 50%);
+                z-index: -2000;
 
                 img {
-                    width: 90%;
-                    border-radius: 50%;
+                    width: 100%;
+
                 }
             }
 
@@ -598,21 +601,23 @@ footer {
     margin-top: $hight-nav;
     margin-left: 11.2rem;
     margin-right: 11.2rem;
-    
+
     .slider-content-about {
         display: flex;
-        
-        
+
+
         .slider-top-bot-about {
             width: 50%;
             // background-color: #ccc;
             display: flex;
             align-items: center;
+
             .text-slider-about {
                 margin-left: auto;
                 margin-right: auto;
                 max-width: 56rem;
-                
+
+
                 .heading-slider-about {
                     font-size: 2.4rem;
                     font-weight: 700;
@@ -624,48 +629,56 @@ footer {
                     font-weight: 400;
                 }
             }
-            .img-slider-about{
+
+            .img-slider-about {
                 width: 100%;
             }
         }
 
-        
+
     }
 }
 
-.container-about{
+.container-about {
     margin-top: 80px;
-    .header-container-about{
+
+    .header-container-about {
         text-align: center;
         font-size: 3.2rem;
         font-weight: 600;
+        margin-bottom: 80px;
     }
-    .container-service-about{
+
+    .container-service-about {
         width: 80vw;
         margin-left: auto;
         margin-right: auto;
-        
-        .cards-service-about{
+
+        .cards-service-about {
             margin-top: 80px;
             display: flex;
             // flex-wrap: wrap;
             justify-content: space-between;
-            .card-service-about{
+
+            .card-service-about {
                 max-width: 60.8rem;
 
-                .card-top-service-about{
-                    .img-card-service-about{
+                .card-top-service-about {
+                    .img-card-service-about {
                         width: 100%;
                     }
                 }
-                .card-bot-service-about{
+
+                .card-bot-service-about {
                     margin-top: 20px;
-                    .heading-card-service-about{
+
+                    .heading-card-service-about {
                         font-size: 2.4rem;
                         font-weight: 700;
                         margin-bottom: 16px;
                     }
-                    .title-card-service-about{
+
+                    .title-card-service-about {
                         font-size: 2rem;
                         font-weight: 400;
                     }
@@ -675,32 +688,96 @@ footer {
 
     }
 
-    .container-founder-about{
+    .container-founder-about {
         margin-top: 120px;
-        .cards-founder-about{
+
+        .cards-founder-about {
             display: flex;
             width: 90vw;
             gap: 32px;
             margin-left: auto;
             margin-right: auto;
             margin-top: 80px;
-            .card-founder-about{
+
+            .card-founder-about {
                 width: calc(100%/4);
-                .img-card-founder-about{
+
+                .img-card-founder-about {
                     width: 100%;
                 }
-                .name-founder-card-about{
+
+                .name-founder-card-about {
                     font-size: 3.2rem;
                     font-weight: 600;
                     margin-top: 4rem;
                     margin-bottom: .8rem;
                 }
-                .title-founder-card-about{
+
+                .title-founder-card-about {
                     font-size: 1.4rem;
                     font-weight: 500;
                 }
             }
         }
     }
+
+    .container-feedback-about {
+        margin-top: 120px;
+
+        .cards-feedback-about {
+            display: flex;
+            width: 90vw;
+            margin-left: auto;
+            margin-right: auto;
+            justify-content: space-between;
+
+
+
+            .card-feedback-about {
+                display: flex;
+                flex-direction: column;
+                width: calc(90%/5);
+                background: #ccc;
+                padding: 12px;
+
+                .card-feedback-about-user {
+                    display: flex;
+                    align-items: center;
+                    max-width: 29.1rem;
+                    margin-bottom: 8px;
+
+                    .from-img-user-feedback-about {
+                        width: 11.2rem;
+                        clip-path: circle(50% at 50% 50%);
+                        margin-right: 20px;
+
+                        .img-user-feedback-about {
+                            width: 100%;
+                        }
+                    }
+
+                    .from-name-user-feedback-about {
+                        .name-user-feedback-about {
+                            font-size: 2rem;
+                            font-weight: 400;
+                            margin-bottom: 12px;
+                        }
+
+                        .job-user-feedback-about {
+                            font-size: 1.4rem;
+                            font-weight: 500;
+                        }
+                    }
+                }
+
+                .title-feedback-about {
+                    font-size: 1.4rem;
+                    font-weight: 500;
+                    max-width: 28.5rem;
+                }
+            }
+        }
+    }
 }
+
 // ----------------------------ABOUT END----------------------------------

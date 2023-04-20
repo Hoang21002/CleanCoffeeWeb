@@ -381,13 +381,15 @@ footer .footer-bot .footer-icon-contact .icon-footer {
   display: flex;
   align-items: center;
   width: 120%;
+  margin-top: 120px;
 }
 .container-khampha .container-khampha-content .interview-content-khampha .interview-content-khampha-img {
   width: 100%;
+  clip-path: circle(50% at 50% 50%);
+  z-index: -2000;
 }
 .container-khampha .container-khampha-content .interview-content-khampha .interview-content-khampha-img img {
-  width: 90%;
-  border-radius: 50%;
+  width: 100%;
 }
 .container-khampha .container-khampha-content .interview-content-khampha .interview-content-khampha-from {
   border-radius: 40px;
@@ -585,6 +587,7 @@ footer .footer-bot .footer-icon-contact .icon-footer {
   text-align: center;
   font-size: 3.2rem;
   font-weight: 600;
+  margin-bottom: 80px;
 }
 .container-about .container-service-about {
   width: 80vw;
@@ -640,6 +643,51 @@ footer .footer-bot .footer-icon-contact .icon-footer {
 .container-about .container-founder-about .cards-founder-about .card-founder-about .title-founder-card-about {
   font-size: 1.4rem;
   font-weight: 500;
+}
+.container-about .container-feedback-about {
+  margin-top: 120px;
+}
+.container-about .container-feedback-about .cards-feedback-about {
+  display: flex;
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+}
+.container-about .container-feedback-about .cards-feedback-about .card-feedback-about {
+  display: flex;
+  flex-direction: column;
+  width: 18%;
+  background: #ccc;
+  padding: 12px;
+}
+.container-about .container-feedback-about .cards-feedback-about .card-feedback-about .card-feedback-about-user {
+  display: flex;
+  align-items: center;
+  max-width: 29.1rem;
+  margin-bottom: 8px;
+}
+.container-about .container-feedback-about .cards-feedback-about .card-feedback-about .card-feedback-about-user .from-img-user-feedback-about {
+  width: 11.2rem;
+  clip-path: circle(50% at 50% 50%);
+  margin-right: 20px;
+}
+.container-about .container-feedback-about .cards-feedback-about .card-feedback-about .card-feedback-about-user .from-img-user-feedback-about .img-user-feedback-about {
+  width: 100%;
+}
+.container-about .container-feedback-about .cards-feedback-about .card-feedback-about .card-feedback-about-user .from-name-user-feedback-about .name-user-feedback-about {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+.container-about .container-feedback-about .cards-feedback-about .card-feedback-about .card-feedback-about-user .from-name-user-feedback-about .job-user-feedback-about {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.container-about .container-feedback-about .cards-feedback-about .card-feedback-about .title-feedback-about {
+  font-size: 1.4rem;
+  font-weight: 500;
+  max-width: 28.5rem;
 }
 
 /*# sourceMappingURL=app.css.map */
