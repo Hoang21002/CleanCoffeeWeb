@@ -7,7 +7,7 @@ document.querySelector('.menu-bnt').onclick = () => {
     navbar.classList.toggle('active');
 };
 
-// ----------JS CHO BUTTON MENU RESPONSIVE------------------
+
 
 
 // ----------JS CHO SLICK SLIDER TRANG XEP HANG------------------
@@ -47,7 +47,39 @@ $(document).ready(function () {
     });
 });
 
-// ----------JS CHO SLICK SLIDER TRANG XEP HANG------------------
+// ----------JS SEARCH ------------------
+
+function search() {
+    let filter = document.getElementById('find').value.toUpperCase();
+
+    let item = document.querySelectorAll('.container-xephang-from');
+
+    let textContent = document.querySelectorAll(".container-list-xephang-from")
+
+    let l = document.getElementsByTagName('h1') ;
+    
+    for(var i = 0; i <= l.length ; i++){
+
+        let a = textContent[i].getElementsByTagName('h1')[0];
+
+
+
+        let value = a.innerHTML || a.innerText || a.textContent;
+
+        if(value.toUpperCase().indexOf(filter) > -1 ){
+            textContent[i].style.display="";
+            
+        }
+        else{
+            textContent[i].style.display="none";
+
+        }
+    }
+
+    
+
+
+}
 
 
 
