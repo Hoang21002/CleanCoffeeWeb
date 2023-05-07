@@ -2,7 +2,21 @@
 @import 'responsive';
 
 
+.text-main-color {
+    color: $main-color;
+}
 
+.text-second-color {
+    color: $second-color;
+}
+
+.text-thir-color {
+    color: $thir-color;
+}
+
+.text-four-color {
+    color: $four-color;
+}
 
 
 // ----------------------------header-----------------------
@@ -12,6 +26,7 @@ header {
     left: 0;
     right: 0;
     z-index: 1000;
+    border-bottom: 1px solid #ccc;
 
     .nav,
     .nav-login,
@@ -80,7 +95,7 @@ footer {
     display: flex;
     flex-direction: column;
     margin-top: 12rem;
-    border-top: 2px solid $main-color;
+    border-top: 1px solid #191919;
     bottom: 0;
     position: relative;
 
@@ -186,13 +201,6 @@ footer {
                 font-weight: 700;
             }
 
-            .slider-content-img {
-                text-align: center;
-
-                img {
-                    width: 28rem;
-                }
-            }
         }
 
         .slider-img {
@@ -230,20 +238,23 @@ footer {
         margin-left: auto;
         margin-right: auto;
         display: flex;
+        
 
 
 
         .container-content-left {
             padding: 10rem 0;
-            background-color: #ccc;
+            background-color: $second-color;
             display: flex;
             width: 50%;
             flex-direction: column;
             align-items: center;
-
+            border-radius: 40px;
+            box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.25);
             .content-left-list {
                 margin-top: 4rem;
                 width: 50%;
+                
 
                 .content-list-top {
                     display: flex;
@@ -253,7 +264,7 @@ footer {
 
                     .number {
                         text-align: center;
-                        background: $balck-color;
+                        background: $thir-color;
                         width: 6.8rem;
                         color: white;
                         border-radius: 2.8rem;
@@ -269,7 +280,8 @@ footer {
 
                     h3 {
                         font-size: 1.6rem;
-                        font-weight: 400;
+                        font-weight: 700;
+
                     }
                 }
 
@@ -283,8 +295,7 @@ footer {
         }
 
         .container-content-right {
-
-            background: red;
+            
             width: 87.3rem;
             height: 59.2rem;
             margin-top: auto;
@@ -306,7 +317,7 @@ footer {
 .slider-khampha {
 
     width: 64%;
-    background: red;
+    background: $main-color;
     margin-left: auto;
     margin-right: auto;
     margin-top: calc($hight-nav + 6.8rem);
@@ -337,21 +348,16 @@ footer {
         width: 89%;
         text-align: left;
 
-        .heading-content-1-khampha {
+        .heading-content-khampha {
             font-size: 2.4rem;
             font-weight: 700;
             margin-top: 4.8rem;
         }
 
-        .heading-content-2-khampha {
-            font-size: 2.4rem;
-            font-weight: 700;
-            margin-top: 8rem;
-        }
 
         .title-content-1-khampha {
             font-size: 1.6rem;
-            font-weight: 400;
+            font-weight: 700;
             margin: 2rem 0;
         }
 
@@ -360,6 +366,7 @@ footer {
             align-items: center;
             width: 120%;
             margin-top: 120px;
+            margin-bottom: 80px;
 
             .interview-content-khampha-img {
                 width: 100%;
@@ -374,12 +381,12 @@ footer {
 
             .interview-content-khampha-from {
                 border-radius: 40px;
-                background-color: #191919;
-                color: white;
+                background-color: $second-color;
                 text-align: left;
                 padding: 4rem;
                 width: 100%;
                 margin-left: -20rem;
+                box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.25);
 
                 .heading-interview-from-khampha {
                     font-size: 2.4rem;
@@ -399,16 +406,17 @@ footer {
             display: flex;
             width: 120%;
             align-items: center;
-            gap: 0 10rem;
+            text-align: center;
 
-            .heading-content-3-khampha {
-                width: 50%;
+            .heading-content-khampha {
+                width: 60%;
             }
 
             .img-content-3-khampha {
-                width: 50%;
+                width: 60%;
 
                 img {
+                    display: block;
                     width: 100%;
                 }
             }
@@ -426,12 +434,21 @@ footer {
 // --------------------------SLIDER---------------------
 
 .slider-xephang {
-    margin-top: $hight-nav;
-    position: relative;
-    padding-top: 50%;
-    background: #ccc;
     display: flex;
     align-items: center;
+    position: relative;
+    width: 100%;
+    min-height: 90vh;
+    margin-top: $hight-nav;
+    background: linear-gradient(350deg, rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.08));
+
+    video {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1000;
+    }
 
     .slider-xephang-text {
         margin-left: 11.2rem;
@@ -461,6 +478,12 @@ footer {
 
         .slider-xephang-bnt {
             @include button(14.8rem, 4rem);
+            box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+            background-color: $main-color;
+            border: 1px solid #000000;
+        }
+        .slider-xephang-bnt:hover{
+            box-shadow: inset 0px 5px 10px rgba(0, 0, 0, 0.25);
         }
     }
 }
@@ -478,9 +501,9 @@ footer {
         align-items: center;
         width: 80vw;
         margin: 0 auto;
-        background-color: #ccc;
+        background-color: $main-color;
         border-radius: 16px;
-
+        border: 0.5px solid #000000;
         .icon-search-xephang {
             padding-left: 1.425rem;
             padding-right: 1.25rem;
@@ -491,9 +514,9 @@ footer {
             font-weight: 500;
             width: 100%;
             padding: 1.825rem 0;
-            background-color: #ccc;
+            background-color: $main-color;
             border-radius: 16px;
-
+            
         }
     }
 
@@ -555,7 +578,7 @@ footer {
                     min-width: 25.3rem;
                     scroll-snap-align: start;
                     cursor: pointer;
-
+                    
                     .card-item-img {
                         width: 100%;
                         display: block;
@@ -611,6 +634,7 @@ footer {
             // background-color: #ccc;
             display: flex;
             align-items: center;
+            background-color: $second-color;
 
             .text-slider-about {
                 margin-left: auto;
@@ -647,6 +671,7 @@ footer {
         font-size: 3.2rem;
         font-weight: 600;
         margin-bottom: 80px;
+        
     }
 
     .container-service-about {
@@ -737,8 +762,10 @@ footer {
                 display: flex;
                 flex-direction: column;
                 width: calc(90%/5);
-                background: #ccc;
+                background: $main-color;
                 padding: 12px;
+                border-radius: 12px;
+                box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.25);
 
                 .card-feedback-about-user {
                     display: flex;
@@ -774,6 +801,23 @@ footer {
                     font-size: 1.4rem;
                     font-weight: 500;
                     max-width: 28.5rem;
+                }
+            }
+        }
+    }
+
+    .container-contact-about{
+        margin-top: 120px;
+        .box-contact-about{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 80px;
+            justify-content: center;
+            align-items: center;
+            .card-contact-about{
+                width: 30rem;
+                .img-card-contact-about{
+                    width: 100%;
                 }
             }
         }
