@@ -1,6 +1,55 @@
 @import 'base';
 @import 'responsive';
 
+.margin-bottom-40 {
+    margin-bottom: 40px;
+}
+
+.text-heading1 {
+    font-size: 4.8rem;
+    font-weight: 600;
+}
+
+.text-heading2 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.text-heading3 {
+    font-size: 3.2rem;
+    font-weight: 600;
+}
+
+.text-heading4 {
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.text-common-sub {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.text-common-lab {
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.text-body1 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.text-body2 {
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+
+.text-caption {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
 
 .text-main-color {
     color: $main-color;
@@ -238,7 +287,7 @@ footer {
         margin-left: auto;
         margin-right: auto;
         display: flex;
-        
+
 
 
 
@@ -251,10 +300,11 @@ footer {
             align-items: center;
             border-radius: 40px;
             box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.25);
+
             .content-left-list {
                 margin-top: 4rem;
                 width: 50%;
-                
+
 
                 .content-list-top {
                     display: flex;
@@ -295,7 +345,7 @@ footer {
         }
 
         .container-content-right {
-            
+
             width: 87.3rem;
             height: 59.2rem;
             margin-top: auto;
@@ -482,7 +532,8 @@ footer {
             background-color: $main-color;
             border: 1px solid #000000;
         }
-        .slider-xephang-bnt:hover{
+
+        .slider-xephang-bnt:hover {
             box-shadow: inset 0px 5px 10px rgba(0, 0, 0, 0.25);
         }
     }
@@ -504,6 +555,7 @@ footer {
         background-color: $main-color;
         border-radius: 16px;
         border: 0.5px solid #000000;
+
         .icon-search-xephang {
             padding-left: 1.425rem;
             padding-right: 1.25rem;
@@ -516,7 +568,7 @@ footer {
             padding: 1.825rem 0;
             background-color: $main-color;
             border-radius: 16px;
-            
+
         }
     }
 
@@ -578,7 +630,7 @@ footer {
                     min-width: 25.3rem;
                     scroll-snap-align: start;
                     cursor: pointer;
-                    
+
                     .card-item-img {
                         width: 100%;
                         display: block;
@@ -671,7 +723,7 @@ footer {
         font-size: 3.2rem;
         font-weight: 600;
         margin-bottom: 80px;
-        
+
     }
 
     .container-service-about {
@@ -806,17 +858,20 @@ footer {
         }
     }
 
-    .container-contact-about{
+    .container-contact-about {
         margin-top: 120px;
-        .box-contact-about{
+
+        .box-contact-about {
             display: flex;
             flex-wrap: wrap;
             gap: 80px;
             justify-content: center;
             align-items: center;
-            .card-contact-about{
+
+            .card-contact-about {
                 width: 30rem;
-                .img-card-contact-about{
+
+                .img-card-contact-about {
                     width: 100%;
                 }
             }
@@ -825,3 +880,78 @@ footer {
 }
 
 // ----------------------------ABOUT END----------------------------------
+
+
+
+// ----------------------------CONTACT BEGIN----------------------------------
+.container-contact {
+    margin-top: $hight-nav;
+    display: flex;
+    justify-content: flex-end;
+
+    .box-container-contact {
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        margin-top: 154px;
+        justify-content: center;
+        background: #FFFFFF;
+        box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.25);
+
+        .text-box-container-contact {
+
+            max-width: 43.2rem;
+            display: flex;
+            flex-direction: column;
+
+            gap: 40px;
+            // padding: 20rem 10.4rem;
+
+        }
+
+    }
+
+    .box-container-request {
+        width: 55%;
+        // padding: 18.4rem 18.4rem 22.2rem 18.4rem;
+
+        .from-box-container-contact {
+            padding: 18.4rem;
+
+            .from-box-input-container-contact {
+                margin-top: 28px;
+
+                .input-contact-request {
+                    width: 80%;
+                    background-color: $main-color;
+                    border-radius: 16px;
+                    padding: 16px;
+                    margin-top: 4px;
+                    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.25);
+
+                }
+            }
+
+        }
+
+        .box-button-contact {
+            margin-top: 56px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 80%;
+            background-color: $four-color;
+            border-radius: 20px;
+            box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+
+            .bnt-contact-request {
+                background-color: $four-color;
+
+            }
+        }
+    }
+}
+
+// ----------------------------CONTACT END----------------------------------

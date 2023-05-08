@@ -114,6 +114,55 @@ html {
     flex-wrap: wrap;
   }
 }
+.margin-bottom-40 {
+  margin-bottom: 40px;
+}
+
+.text-heading1 {
+  font-size: 4.8rem;
+  font-weight: 600;
+}
+
+.text-heading2 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.text-heading3 {
+  font-size: 3.2rem;
+  font-weight: 600;
+}
+
+.text-heading4 {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.text-common-sub {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.text-common-lab {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.text-body1 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.text-body2 {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.text-caption {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
 .text-main-color {
   color: #FFFFFF;
 }
@@ -731,6 +780,59 @@ footer .footer-bot .footer-icon-contact .icon-footer {
 }
 .container-about .container-contact-about .box-contact-about .card-contact-about .img-card-contact-about {
   width: 100%;
+}
+
+.container-contact {
+  margin-top: 6.8rem;
+  display: flex;
+  justify-content: flex-end;
+}
+.container-contact .box-container-contact {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  margin-top: 154px;
+  justify-content: center;
+  background: #FFFFFF;
+  box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.25);
+}
+.container-contact .box-container-contact .text-box-container-contact {
+  max-width: 43.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.container-contact .box-container-request {
+  width: 55%;
+}
+.container-contact .box-container-request .from-box-container-contact {
+  padding: 18.4rem;
+}
+.container-contact .box-container-request .from-box-container-contact .from-box-input-container-contact {
+  margin-top: 28px;
+}
+.container-contact .box-container-request .from-box-container-contact .from-box-input-container-contact .input-contact-request {
+  width: 80%;
+  background-color: #FFFFFF;
+  border-radius: 16px;
+  padding: 16px;
+  margin-top: 4px;
+  box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.25);
+}
+.container-contact .box-container-request .box-button-contact {
+  margin-top: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  background-color: #0F0F0F;
+  border-radius: 20px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+}
+.container-contact .box-container-request .box-button-contact .bnt-contact-request {
+  background-color: #0F0F0F;
 }
 
 /*# sourceMappingURL=app.css.map */
