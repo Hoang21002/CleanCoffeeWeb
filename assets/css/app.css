@@ -489,9 +489,9 @@ footer .footer-bot .footer-icon-contact .icon-footer {
   align-items: center;
   position: relative;
   width: 100%;
-  min-height: 90vh;
+  min-height: 95vh;
   margin-top: 6.8rem;
-  background: linear-gradient(350deg, rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.08));
+  background: linear-gradient(350deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4));
 }
 .slider-xephang video {
   position: absolute;
@@ -620,6 +620,20 @@ footer .footer-bot .footer-icon-contact .icon-footer {
   display: flex;
   gap: 1.7rem;
   margin-bottom: 2.4rem;
+}
+.container-xephang .container-content-xephang .container-xephang-from .container-list-xephanh .container-list-xephang-from .card-item-content .box-button-like-xephang {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 8px;
+  padding: 10px;
+  background-color: #0F0F0F;
+  border-radius: 20px;
+}
+.container-xephang .container-content-xephang .container-xephang-from .container-list-xephanh .container-list-xephang-from .card-item-content .box-button-like-xephang .bnt-like-xephang {
+  background-color: #0F0F0F;
 }
 
 .slider-about {
@@ -786,14 +800,17 @@ footer .footer-bot .footer-icon-contact .icon-footer {
   margin-top: 6.8rem;
   display: flex;
   justify-content: flex-end;
+  align-items: center;
 }
 .container-contact .box-container-contact {
   width: 30%;
   display: flex;
+  margin-right: -64px;
+  z-index: 1000;
   flex-direction: column;
   align-items: center;
   gap: 40px;
-  margin-top: 154px;
+  height: 80vh;
   justify-content: center;
   background: #FFFFFF;
   box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.25);
@@ -806,12 +823,26 @@ footer .footer-bot .footer-icon-contact .icon-footer {
 }
 .container-contact .box-container-request {
   width: 55%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FDFFF5;
 }
 .container-contact .box-container-request .from-box-container-contact {
   padding: 18.4rem;
+  margin: 0 auto;
 }
 .container-contact .box-container-request .from-box-container-contact .from-box-input-container-contact {
   margin-top: 28px;
+}
+.container-contact .box-container-request .from-box-container-contact .from-box-input-container-contact .textarea-contact-request {
+  padding: 10px 14px 0 14px;
+  resize: none;
+  width: 80%;
+  height: 15.3rem;
+  border-radius: 16px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+  margin-top: 4px;
 }
 .container-contact .box-container-request .from-box-container-contact .from-box-input-container-contact .input-contact-request {
   width: 80%;
@@ -819,7 +850,7 @@ footer .footer-bot .footer-icon-contact .icon-footer {
   border-radius: 16px;
   padding: 16px;
   margin-top: 4px;
-  box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
 }
 .container-contact .box-container-request .box-button-contact {
   margin-top: 56px;
@@ -827,6 +858,8 @@ footer .footer-bot .footer-icon-contact .icon-footer {
   justify-content: center;
   align-items: center;
   width: 80%;
+  gap: 8px;
+  padding: 10px;
   background-color: #0F0F0F;
   border-radius: 20px;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);

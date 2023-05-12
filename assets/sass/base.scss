@@ -1,20 +1,22 @@
-*{
-    padding: 0; margin: 0;
+* {
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
-    outline: none; border: none;
+    outline: none;
+    border: none;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     transition: all .2s linear;
     list-style: none;
-    
+
 }
 
-html{
+html {
     font-size: 62.5%;
 }
 
 $main-color : #FFFFFF;
-$second-color : #FDFFF5; 
+$second-color : #FDFFF5;
 $thir-color : #532E1C;
 $four-color : #0F0F0F;
 
@@ -24,20 +26,31 @@ $white-color: #FFFFFF;
 
 $hight-nav : 6.8rem;
 
-@mixin input ($width,$height){
+@mixin input ($width, $height) {
     width: $width;
     height: $height;
     border-radius: 16px;
 }
 
-@mixin button ($width,$height){
+@mixin button ($width, $height) {
     width: $width;
     height: $height;
     border-radius: 20px;
     cursor: pointer;
 }
 
-@mixin logo (){
+@mixin icon-button ($width, $height) {
+    width: $width;
+    height: $height;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+@mixin logo () {
     gap: 0 0.9rem;
 
     p {
