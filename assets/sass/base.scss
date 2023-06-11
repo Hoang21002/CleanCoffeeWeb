@@ -10,7 +10,9 @@
     list-style: none;
 
 }
-
+a{
+    color: #191919;
+}
 html {
     font-size: 62.5%;
 }
@@ -23,6 +25,11 @@ $four-color : #0F0F0F;
 $balck-color :#191919;
 $balck-color-text: #000000;
 $white-color: #FFFFFF;
+
+$main-color-ux : #FFFFFF;
+$second-color-ux : #DDDDDD;
+$thir-color-ux : #191919;
+$four-color-ux : #D4D4D4;
 
 $hight-nav : 6.8rem;
 
