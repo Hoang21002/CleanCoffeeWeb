@@ -32,7 +32,8 @@ $thir-color-ux : #191919;
 $four-color-ux : #D4D4D4;
 
 $hight-nav : 6.8rem;
-
+$width-nav-admin: 25.6rem;
+$hight-header-admin:15.2rem;
 @mixin input ($width, $height) {
     width: $width;
     height: $height;
