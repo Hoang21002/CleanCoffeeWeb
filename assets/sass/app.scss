@@ -5,6 +5,10 @@
     margin-bottom: 40px;
 }
 
+.margin-bot-60 {
+    margin-bottom: 60px;
+}
+
 .text-heading1 {
     font-size: 4.8rem;
     font-weight: 600;
@@ -70,7 +74,9 @@
 .text-unline {
     text-decoration: underline;
 }
-
+.text-italic{
+    font-style: italic;
+}
 .text-center {
     text-align: center;
 }
@@ -104,6 +110,14 @@
     justify-content: center;
     gap: 10px;
     align-items: center;
+}
+
+.btn-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $main-color;
+    border-radius: 20px;
 }
 
 .text-logo {
@@ -314,86 +328,41 @@ footer {
 
 // ----------------------------container-----------------------
 .container {
-    margin-top: 4.3rem;
-
-    .text-heading-container {
-        text-align: center;
-        margin-bottom: 4rem;
-        font-size: 4rem;
-        font-weight: 700;
-
-    }
-
-    .container-content {
-        width: 80vw;
-        margin-left: auto;
-        margin-right: auto;
+    margin-top: 72px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 140px;
+    .box-text-container {
         display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 40%;
+    }
+}
 
-
-
-
-        .container-content-left {
-            padding: 10rem 0;
-            background-color: $second-color;
+.container-2 {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.box-containr-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 80px;
+    .box-text-container-2 {
+        width: 30%;
+        .box-title-text-container-2{
             display: flex;
-            width: 50%;
-            flex-direction: column;
+            gap: 40px;
             align-items: center;
-            border-radius: 40px;
-            box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.25);
-
-            .content-left-list {
-                margin-top: 4rem;
-                width: 50%;
-
-
-                .content-list-top {
-                    display: flex;
-                    gap: 0 4rem;
-                    margin-bottom: .8rem;
-                    align-items: center;
-
-                    .number {
-                        text-align: center;
-                        background: $thir-color;
-                        width: 6.8rem;
-                        color: white;
-                        border-radius: 2.8rem;
-                        font-size: 2.4rem;
-                        font-weight: 700;
-
-                        p {
-                            padding: 1rem 0;
-                            font-size: 2.4rem;
-                            font-weight: 700;
-                        }
-                    }
-
-                    h3 {
-                        font-size: 1.6rem;
-                        font-weight: 700;
-
-                    }
-                }
-
-                p {
-                    font-size: 1.4rem;
-                    font-weight: 500;
-                    font-style: italic;
-                }
-
+            margin-bottom: 28px;
+            .box-number{
+                background-color: $second-color;
+                padding: 26px 34px;
+                clip-path: circle(50% at 50% 50%);
             }
-        }
-
-        .container-content-right {
-
-            width: 87.3rem;
-            height: 59.2rem;
-            margin-top: auto;
-            margin-left: -6.4rem;
-            margin-bottom: auto;
-
         }
     }
 }
@@ -578,6 +547,18 @@ footer {
         .slider-xephang-bnt:hover {
             box-shadow: inset 0px 5px 10px rgba(0, 0, 0, 0.25);
         }
+
+        .box-button-trangchu {
+            display: flex;
+            gap: 34px;
+
+            // background-color: $main-color;
+            .input-code-trangchu {
+                padding: 4px;
+                border-radius: 20px;
+
+            }
+        }
     }
 }
 
@@ -587,7 +568,7 @@ footer {
 
 // ----------------------------container-----------------------
 .container-xephang {
-    margin-top: 8rem;
+    margin-top: calc($hight-nav + 52px);
 
     .container-search-xephang {
         display: flex;
