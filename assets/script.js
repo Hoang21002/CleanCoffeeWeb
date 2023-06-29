@@ -9,7 +9,6 @@ document.querySelector('.menu-bnt').onclick = () => {
 
 
 
-
 // ----------JS CHO SLICK SLIDER TRANG XEP HANG------------------
 
 $(document).ready(function () {
@@ -79,7 +78,10 @@ function search() {
     
 
 
-}
+};
 
+$(function(){
+    new WOW().init();
+});
 
 

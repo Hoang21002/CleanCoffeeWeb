@@ -122,6 +122,10 @@ html {
   margin-bottom: 40px;
 }
 
+button {
+  cursor: pointer;
+}
+
 .margin-bot-60 {
   margin-bottom: 60px;
 }
@@ -1184,6 +1188,26 @@ footer .footer-bot .footer-icon-contact .icon-footer {
   background-color: #F5F5F5;
   margin-bottom: 30.4rem;
 }
+.header-admin .box-btn-header-admin {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+}
+.header-admin .box-btn-header-admin .btn-header-admin {
+  padding: 4px 10px 4px 10px;
+  border-radius: 4px;
+  width: 13.8rem;
+  color: #F5F5F5;
+}
+.header-admin .box-btn-header-admin .btn-header-admin:nth-child(1) {
+  background-color: #1877F2;
+}
+.header-admin .box-btn-header-admin .btn-header-admin:nth-child(2) {
+  background-color: rgba(255, 6, 6, 0.6);
+}
+.header-admin .box-btn-header-admin .btn-header-admin:nth-child(3) {
+  background-color: rgba(25, 25, 25, 0.6);
+}
 .header-admin .box-icon-header-admin {
   display: flex;
   gap: 3.2rem;
@@ -1259,6 +1283,40 @@ footer .footer-bot .footer-icon-contact .icon-footer {
   width: 45%;
   padding: 10px;
   border-radius: 4px;
+}
+
+.container-admin-thumua {
+  background-color: #F5F5F5;
+  position: absolute;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25.6rem;
+  margin-top: 6.8rem;
+  padding-top: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 98%;
+}
+
+td,
+th {
+  border: 1px solid #000000;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(1) {
+  background-color: #1877F2;
+  color: #ffffff;
+}
+
+td:nth-child(10) {
+  background-color: green;
+  color: white;
 }
 
 /*# sourceMappingURL=app.css.map */

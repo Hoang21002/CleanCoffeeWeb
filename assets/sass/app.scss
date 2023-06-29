@@ -4,7 +4,12 @@
 .margin-bottom-40 {
     margin-bottom: 40px;
 }
-
+button{
+    cursor: pointer;
+}
+// button:hover{
+//     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+// }
 .margin-bot-60 {
     margin-bottom: 60px;
 }
@@ -74,9 +79,11 @@
 .text-unline {
     text-decoration: underline;
 }
-.text-italic{
+
+.text-italic {
     font-style: italic;
 }
+
 .text-center {
     text-align: center;
 }
@@ -332,6 +339,7 @@ footer {
     display: flex;
     justify-content: space-around;
     margin-bottom: 140px;
+
     .box-text-container {
         display: flex;
         flex-direction: column;
@@ -344,21 +352,25 @@ footer {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    
+
 }
+
 .box-containr-2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     row-gap: 80px;
+
     .box-text-container-2 {
         width: 30%;
-        .box-title-text-container-2{
+
+        .box-title-text-container-2 {
             display: flex;
             gap: 40px;
             align-items: center;
             margin-bottom: 28px;
-            .box-number{
+
+            .box-number {
                 background-color: $second-color;
                 padding: 26px 34px;
                 clip-path: circle(50% at 50% 50%);
@@ -1345,6 +1357,27 @@ footer {
     background-color: #F5F5F5;
     margin-bottom: calc($hight-header-admin + $hight-header-admin);
 
+    .box-btn-header-admin {
+        display: flex;
+        justify-content: center;
+        gap: 18px;
+        .btn-header-admin {
+            padding: 4px 10px 4px 10px;
+            border-radius: 4px;
+            width: 13.8rem;
+            color: #F5F5F5;
+        }
+        .btn-header-admin:nth-child(1){
+            background-color: #1877F2;
+        }
+        .btn-header-admin:nth-child(2){
+            background-color: #FF060699;
+        }
+        .btn-header-admin:nth-child(3){
+            background-color: #19191999;
+        }
+    }
+
     .box-icon-header-admin {
         display: flex;
         gap: 3.2rem;
@@ -1444,6 +1477,89 @@ footer {
         }
     }
 }
+
+.container-admin-thumua {
+    background-color: #F5F5F5;
+    position: absolute;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: $width-nav-admin;
+    margin-top: $hight-nav;
+    padding-top: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 98%;
+}
+
+td,
+th {
+    // width: calc(95% / 5);
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 8px;
+}
+
+
+// td:nth-child(1),
+tr:nth-child(1) {
+    background-color: #1877F2;
+    color: #ffffff;
+}
+
+td:nth-child(10) {
+    background-color: green;
+    color: white;
+}
+
+// td:nth-child(2),
+// th:nth-child(2) {
+//     background-color: #4232d8;
+// }
+
+// td:nth-child(3),
+// th:nth-child(3) {
+//     background-color: #b3e077;
+// }
+
+// td:nth-child(4),
+// th:nth-child(4) {
+//     background-color: #d4e95c;
+// }
+
+// td:nth-child(5),
+// th:nth-child(5) {
+//     background-color: #f049e2;
+// }
+
+// td:nth-child(6),
+// th:nth-child(6) {
+//     background-color: #e08d2d;
+// }
+
+// td:nth-child(7),
+// th:nth-child(7) {
+//     background-color: #f59be1;
+// }
+
+// td:nth-child(8),
+// th:nth-child(8) {
+//     background-color: #4aeca9;
+// }
+
+// td:nth-child(9),
+// th:nth-child(9) {
+//     background-color: #4aeca9;
+// }
+
+// td:nth-child(10),
+// th:nth-child(10) {
+//     background-color: #4aeca9;
+// }
+
 
 
 // ----------------------------CONTACT END----------------------------------
